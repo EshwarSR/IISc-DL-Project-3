@@ -1,0 +1,19 @@
+Training the model LR_unprocessed_elasticnet
+Loading Dataset
+Loaded the dataset
+
+Training CountVectorizer
+
+Training TFIDF
+
+Training Logistic Regression
+
+Evaluating the model
+
+Evaluating the model
+
+Evaluating the model
+Accuracies: 0.588 0.579 0.574
+
+Time taken for full run 2423.417632341385 
+

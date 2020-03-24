@@ -1,0 +1,19 @@
+Training the model LR_processed_l1
+Loading Dataset
+Loaded the dataset
+
+Training CountVectorizer
+
+Training TFIDF
+
+Training Logistic Regression
+
+Evaluating the model
+
+Evaluating the model
+
+Evaluating the model
+Accuracies: 0.556 0.547 0.552
+
+Time taken for full run 3515.5416963100433 
+

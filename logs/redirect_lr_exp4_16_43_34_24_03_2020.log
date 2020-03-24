@@ -1,0 +1,21 @@
+Training the model LR_unprocessed_none
+Loading Dataset
+Loaded the dataset
+
+Training CountVectorizer
+
+Training TFIDF
+
+Training Logistic Regression
+/home/eshwarsr/IISc-DL-Project-3/virtual_env/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:1501: UserWarning: l1_ratio parameter is only used when penalty is 'elasticnet'. Got (penalty=none)
+  "(penalty={})".format(self.penalty))
+
+Evaluating the model
+
+Evaluating the model
+
+Evaluating the model
+Accuracies: 0.622 0.579 0.578
+
+Time taken for full run 1743.9100630283356 
+

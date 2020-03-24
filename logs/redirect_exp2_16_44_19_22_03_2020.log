@@ -1,0 +1,1924 @@
+
+
+CURRENT EXPERIMENT: EXP2
+Running on the device cuda:2
+Loading Dataset
+Finished loading Dataset 53.18667650222778
+Started training model: adam_0005
+Time elapsed: 1.2776434421539307 | Epoch: 1/30 | Batch: 1/4292 | Batch Loss: 1.3967070579528809
+Time elapsed: 25.641078233718872 | Epoch: 1/30 | Batch: 1001/4292 | Batch Loss: 0.8624319434165955
+Time elapsed: 47.54477310180664 | Epoch: 1/30 | Batch: 2001/4292 | Batch Loss: 0.6766750812530518
+Time elapsed: 69.46358680725098 | Epoch: 1/30 | Batch: 3001/4292 | Batch Loss: 0.7329956889152527
+Time elapsed: 91.60186409950256 | Epoch: 1/30 | Batch: 4001/4292 | Batch Loss: 0.7528320550918579
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 29.853938341140747
+Time taken for validation evaluation 0.3909327983856201
+
+
+=========================
+Time elapsed: 129.21434330940247
+Epoch: 1/30
+Epoch time: 129.21436166763306
+Train Acc: 0.7281726059264572
+Validation Acc: 0.727087990245885
+Train Loss: 0.6505030964882482
+Validation Loss: 0.6521809685886742
+=========================
+
+
+Time elapsed: 130.57515621185303 | Epoch: 2/30 | Batch: 1/4292 | Batch Loss: 0.649168074131012
+Time elapsed: 151.61981534957886 | Epoch: 2/30 | Batch: 1001/4292 | Batch Loss: 0.5922078490257263
+Time elapsed: 173.2050371170044 | Epoch: 2/30 | Batch: 2001/4292 | Batch Loss: 0.6091312170028687
+Time elapsed: 194.78376626968384 | Epoch: 2/30 | Batch: 3001/4292 | Batch Loss: 0.6769710183143616
+Time elapsed: 216.87899494171143 | Epoch: 2/30 | Batch: 4001/4292 | Batch Loss: 0.704921305179596
+Starting Evaluation for epoch: 2
+Time taken for train evaluation 33.08291029930115
+Time taken for validation evaluation 0.43291139602661133
+
+
+=========================
+Time elapsed: 257.98101449012756
+Epoch: 2/30
+Epoch time: 128.76652574539185
+Train Acc: 0.7677854694584858
+Validation Acc: 0.7604145498882341
+Train Loss: 0.5725310132123019
+Validation Loss: 0.5884019871887892
+=========================
+
+
+Time elapsed: 259.51852226257324 | Epoch: 3/30 | Batch: 1/4292 | Batch Loss: 0.4592142403125763
+Time elapsed: 281.0770163536072 | Epoch: 3/30 | Batch: 1001/4292 | Batch Loss: 0.6570311188697815
+Time elapsed: 302.93648409843445 | Epoch: 3/30 | Batch: 2001/4292 | Batch Loss: 0.532429575920105
+Time elapsed: 324.6044342517853 | Epoch: 3/30 | Batch: 3001/4292 | Batch Loss: 0.579513430595398
+Time elapsed: 345.8656539916992 | Epoch: 3/30 | Batch: 4001/4292 | Batch Loss: 0.6708601117134094
+Starting Evaluation for epoch: 3
+Time taken for train evaluation 32.297938108444214
+Time taken for validation evaluation 0.4233245849609375
+
+
+=========================
+Time elapsed: 385.99973011016846
+Epoch: 3/30
+Epoch time: 128.01855492591858
+Train Acc: 0.7898235605706204
+Validation Acc: 0.7796179638284901
+Train Loss: 0.5273588033015866
+Validation Loss: 0.5505882126363015
+=========================
+
+
+Time elapsed: 387.44019842147827 | Epoch: 4/30 | Batch: 1/4292 | Batch Loss: 0.5482461452484131
+Time elapsed: 408.53407645225525 | Epoch: 4/30 | Batch: 1001/4292 | Batch Loss: 0.5645193457603455
+Time elapsed: 429.92400217056274 | Epoch: 4/30 | Batch: 2001/4292 | Batch Loss: 0.575452983379364
+Time elapsed: 451.5427956581116 | Epoch: 4/30 | Batch: 3001/4292 | Batch Loss: 0.5154479742050171
+Time elapsed: 473.2354030609131 | Epoch: 4/30 | Batch: 4001/4292 | Batch Loss: 0.5363843441009521
+Starting Evaluation for epoch: 4
+Time taken for train evaluation 32.078755378723145
+Time taken for validation evaluation 0.4180338382720947
+
+
+=========================
+Time elapsed: 513.0903506278992
+Epoch: 4/30
+Epoch time: 127.09045791625977
+Train Acc: 0.8064918351484527
+Validation Acc: 0.7888640520219468
+Train Loss: 0.48677944548384566
+Validation Loss: 0.5271789557418792
+=========================
+
+
+Time elapsed: 514.4057056903839 | Epoch: 5/30 | Batch: 1/4292 | Batch Loss: 0.4728759825229645
+Time elapsed: 535.6941728591919 | Epoch: 5/30 | Batch: 1001/4292 | Batch Loss: 0.44110432267189026
+Time elapsed: 557.5880737304688 | Epoch: 5/30 | Batch: 2001/4292 | Batch Loss: 0.5980454683303833
+Time elapsed: 579.5798645019531 | Epoch: 5/30 | Batch: 3001/4292 | Batch Loss: 0.47232356667518616
+Time elapsed: 601.2479066848755 | Epoch: 5/30 | Batch: 4001/4292 | Batch Loss: 0.4419202208518982
+Starting Evaluation for epoch: 5
+Time taken for train evaluation 32.34093427658081
+Time taken for validation evaluation 0.3996906280517578
+
+
+=========================
+Time elapsed: 641.7068250179291
+Epoch: 5/30
+Epoch time: 128.61634159088135
+Train Acc: 0.8221753399821977
+Validation Acc: 0.79831335094493
+Train Loss: 0.45311889139302536
+Validation Loss: 0.510699249287733
+=========================
+
+
+Time elapsed: 643.0207254886627 | Epoch: 6/30 | Batch: 1/4292 | Batch Loss: 0.5086528658866882
+Time elapsed: 664.2900712490082 | Epoch: 6/30 | Batch: 1001/4292 | Batch Loss: 0.5366002321243286
+Time elapsed: 686.070107460022 | Epoch: 6/30 | Batch: 2001/4292 | Batch Loss: 0.5095165967941284
+Time elapsed: 707.7278203964233 | Epoch: 6/30 | Batch: 3001/4292 | Batch Loss: 0.5094936490058899
+Time elapsed: 728.9273476600647 | Epoch: 6/30 | Batch: 4001/4292 | Batch Loss: 0.44991832971572876
+Starting Evaluation for epoch: 6
+Time taken for train evaluation 32.02886152267456
+Time taken for validation evaluation 0.4172484874725342
+
+
+=========================
+Time elapsed: 768.9928538799286
+Epoch: 6/30
+Epoch time: 127.2858874797821
+Train Acc: 0.8377623701460044
+Validation Acc: 0.8094899410688884
+Train Loss: 0.4228726857139372
+Validation Loss: 0.5001829696050434
+=========================
+
+
+Time elapsed: 770.3648111820221 | Epoch: 7/30 | Batch: 1/4292 | Batch Loss: 0.4117885231971741
+Time elapsed: 791.7319436073303 | Epoch: 7/30 | Batch: 1001/4292 | Batch Loss: 0.4089120924472809
+Time elapsed: 812.9142146110535 | Epoch: 7/30 | Batch: 2001/4292 | Batch Loss: 0.32246631383895874
+Time elapsed: 834.4001145362854 | Epoch: 7/30 | Batch: 3001/4292 | Batch Loss: 0.4233268201351166
+Time elapsed: 857.0446982383728 | Epoch: 7/30 | Batch: 4001/4292 | Batch Loss: 0.3182678520679474
+Starting Evaluation for epoch: 7
+Time taken for train evaluation 32.33096432685852
+Time taken for validation evaluation 0.4237034320831299
+
+
+=========================
+Time elapsed: 897.5848715305328
+Epoch: 7/30
+Epoch time: 128.5918788909912
+Train Acc: 0.8552970964764902
+Validation Acc: 0.807762649867913
+Train Loss: 0.3797454126324401
+Validation Loss: 0.4858034093601387
+=========================
+
+
+Time elapsed: 899.0214331150055 | Epoch: 8/30 | Batch: 1/4292 | Batch Loss: 0.4866943359375
+Time elapsed: 919.9895176887512 | Epoch: 8/30 | Batch: 1001/4292 | Batch Loss: 0.3965539336204529
+Time elapsed: 941.7760496139526 | Epoch: 8/30 | Batch: 2001/4292 | Batch Loss: 0.43368297815322876
+Time elapsed: 963.4930171966553 | Epoch: 8/30 | Batch: 3001/4292 | Batch Loss: 0.40092340111732483
+Time elapsed: 985.2817425727844 | Epoch: 8/30 | Batch: 4001/4292 | Batch Loss: 0.44684502482414246
+Starting Evaluation for epoch: 8
+Time taken for train evaluation 33.168240785598755
+Time taken for validation evaluation 0.41961169242858887
+
+
+=========================
+Time elapsed: 1026.3383738994598
+Epoch: 8/30
+Epoch time: 128.7533507347107
+Train Acc: 0.8693751171803185
+Validation Acc: 0.809693151798415
+Train Loss: 0.34457673365598523
+Validation Loss: 0.4946133326742858
+=========================
+
+
+Time elapsed: 1027.666143655777 | Epoch: 9/30 | Batch: 1/4292 | Batch Loss: 0.31457147002220154
+Time elapsed: 1049.4078454971313 | Epoch: 9/30 | Batch: 1001/4292 | Batch Loss: 0.4100799560546875
+Time elapsed: 1071.1900947093964 | Epoch: 9/30 | Batch: 2001/4292 | Batch Loss: 0.39671310782432556
+Time elapsed: 1093.025009393692 | Epoch: 9/30 | Batch: 3001/4292 | Batch Loss: 0.39944586157798767
+Time elapsed: 1114.1645684242249 | Epoch: 9/30 | Batch: 4001/4292 | Batch Loss: 0.49978893995285034
+Starting Evaluation for epoch: 9
+Time taken for train evaluation 33.259146213531494
+Time taken for validation evaluation 0.42380404472351074
+
+
+=========================
+Time elapsed: 1155.3680324554443
+Epoch: 9/30
+Epoch time: 129.02952218055725
+Train Acc: 0.8821061330585929
+Validation Acc: 0.8107092054460475
+Train Loss: 0.3164075316153577
+Validation Loss: 0.5009664753132103
+=========================
+
+
+Time elapsed: 1156.79723072052 | Epoch: 10/30 | Batch: 1/4292 | Batch Loss: 0.3295566439628601
+Time elapsed: 1178.8799409866333 | Epoch: 10/30 | Batch: 1001/4292 | Batch Loss: 0.4144766628742218
+Time elapsed: 1200.6058676242828 | Epoch: 10/30 | Batch: 2001/4292 | Batch Loss: 0.32546666264533997
+Time elapsed: 1222.2328431606293 | Epoch: 10/30 | Batch: 3001/4292 | Batch Loss: 0.36644282937049866
+Time elapsed: 1244.1134450435638 | Epoch: 10/30 | Batch: 4001/4292 | Batch Loss: 0.34145185351371765
+Starting Evaluation for epoch: 10
+Time taken for train evaluation 32.84053301811218
+Time taken for validation evaluation 0.4217061996459961
+
+
+=========================
+Time elapsed: 1284.9305267333984
+Epoch: 10/30
+Epoch time: 129.562331199646
+Train Acc: 0.8962387620661598
+Validation Acc: 0.8125381020117862
+Train Loss: 0.2804864441226383
+Validation Loss: 0.5234811584340486
+=========================
+
+
+Time elapsed: 1286.2906923294067 | Epoch: 11/30 | Batch: 1/4292 | Batch Loss: 0.3323918282985687
+Time elapsed: 1307.5217914581299 | Epoch: 11/30 | Batch: 1001/4292 | Batch Loss: 0.28739529848098755
+Time elapsed: 1329.1653680801392 | Epoch: 11/30 | Batch: 2001/4292 | Batch Loss: 0.25039613246917725
+Time elapsed: 1351.0183928012848 | Epoch: 11/30 | Batch: 3001/4292 | Batch Loss: 0.3894185423851013
+Time elapsed: 1372.666160106659 | Epoch: 11/30 | Batch: 4001/4292 | Batch Loss: 0.30565011501312256
+Starting Evaluation for epoch: 11
+Time taken for train evaluation 33.14340090751648
+Time taken for validation evaluation 0.4110252857208252
+
+
+=========================
+Time elapsed: 1413.9257152080536
+Epoch: 11/30
+Epoch time: 128.9950134754181
+Train Acc: 0.9086548700595413
+Validation Acc: 0.8105059947165211
+Train Loss: 0.2507337395147361
+Validation Loss: 0.5496115585309513
+=========================
+
+
+Time elapsed: 1415.3542325496674 | Epoch: 12/30 | Batch: 1/4292 | Batch Loss: 0.3493044376373291
+Time elapsed: 1436.7539734840393 | Epoch: 12/30 | Batch: 1001/4292 | Batch Loss: 0.3395964801311493
+Time elapsed: 1458.477633714676 | Epoch: 12/30 | Batch: 2001/4292 | Batch Loss: 0.3146075904369354
+Time elapsed: 1480.2514593601227 | Epoch: 12/30 | Batch: 3001/4292 | Batch Loss: 0.3720756471157074
+Time elapsed: 1501.8391742706299 | Epoch: 12/30 | Batch: 4001/4292 | Batch Loss: 0.25541606545448303
+Starting Evaluation for epoch: 12
+Time taken for train evaluation 32.02290987968445
+Time taken for validation evaluation 0.4159519672393799
+
+
+=========================
+Time elapsed: 1541.5891501903534
+Epoch: 12/30
+Epoch time: 127.66325664520264
+Train Acc: 0.9196384202181783
+Validation Acc: 0.812842918106076
+Train Loss: 0.22201206944171062
+Validation Loss: 0.5649430055706464
+=========================
+
+
+Time elapsed: 1542.8900508880615 | Epoch: 13/30 | Batch: 1/4292 | Batch Loss: 0.11800743639469147
+Time elapsed: 1564.6091284751892 | Epoch: 13/30 | Batch: 1001/4292 | Batch Loss: 0.36135682463645935
+Time elapsed: 1586.412192583084 | Epoch: 13/30 | Batch: 2001/4292 | Batch Loss: 0.27715393900871277
+Time elapsed: 1607.7097446918488 | Epoch: 13/30 | Batch: 3001/4292 | Batch Loss: 0.2278936803340912
+Time elapsed: 1629.3214347362518 | Epoch: 13/30 | Batch: 4001/4292 | Batch Loss: 0.3447502553462982
+Starting Evaluation for epoch: 13
+Time taken for train evaluation 32.02547907829285
+Time taken for validation evaluation 0.4186089038848877
+
+
+=========================
+Time elapsed: 1669.072372674942
+Epoch: 13/30
+Epoch time: 127.48308157920837
+Train Acc: 0.9287325230674577
+Validation Acc: 0.8099979678927047
+Train Loss: 0.20175414274877024
+Validation Loss: 0.5885379836947374
+=========================
+
+
+Time elapsed: 1670.3899128437042 | Epoch: 14/30 | Batch: 1/4292 | Batch Loss: 0.27218398451805115
+Time elapsed: 1691.86860871315 | Epoch: 14/30 | Batch: 1001/4292 | Batch Loss: 0.28750306367874146
+Time elapsed: 1712.959093093872 | Epoch: 14/30 | Batch: 2001/4292 | Batch Loss: 0.2809198796749115
+Time elapsed: 1734.8420717716217 | Epoch: 14/30 | Batch: 3001/4292 | Batch Loss: 0.40563565492630005
+Time elapsed: 1756.5379457473755 | Epoch: 14/30 | Batch: 4001/4292 | Batch Loss: 0.2574075758457184
+Starting Evaluation for epoch: 14
+Time taken for train evaluation 32.31551814079285
+Time taken for validation evaluation 0.41768383979797363
+
+
+=========================
+Time elapsed: 1796.7628238201141
+Epoch: 14/30
+Epoch time: 127.69031119346619
+Train Acc: 0.9371767871022467
+Validation Acc: 0.8040032513716724
+Train Loss: 0.17185330782791328
+Validation Loss: 0.6896051347582739
+=========================
+
+
+Time elapsed: 1798.1270442008972 | Epoch: 15/30 | Batch: 1/4292 | Batch Loss: 0.24586734175682068
+Time elapsed: 1819.7488803863525 | Epoch: 15/30 | Batch: 1001/4292 | Batch Loss: 0.23189301788806915
+Time elapsed: 1841.59282040596 | Epoch: 15/30 | Batch: 2001/4292 | Batch Loss: 0.2205173671245575
+Time elapsed: 1863.5438470840454 | Epoch: 15/30 | Batch: 3001/4292 | Batch Loss: 0.28016018867492676
+Time elapsed: 1885.0526630878448 | Epoch: 15/30 | Batch: 4001/4292 | Batch Loss: 0.2763125002384186
+Starting Evaluation for epoch: 15
+Time taken for train evaluation 31.796560049057007
+Time taken for validation evaluation 0.4156222343444824
+
+
+=========================
+Time elapsed: 1924.4127247333527
+Epoch: 15/30
+Epoch time: 127.64976692199707
+Train Acc: 0.9454918114848544
+Validation Acc: 0.80268238162975
+Train Loss: 0.15449039479807783
+Validation Loss: 0.7021499095203382
+=========================
+
+
+Time elapsed: 1925.7107453346252 | Epoch: 16/30 | Batch: 1/4292 | Batch Loss: 0.18817859888076782
+Time elapsed: 1947.6699168682098 | Epoch: 16/30 | Batch: 1001/4292 | Batch Loss: 0.21943716704845428
+Time elapsed: 1975.3791162967682 | Epoch: 16/30 | Batch: 2001/4292 | Batch Loss: 0.22999587655067444
+Time elapsed: 2001.926777601242 | Epoch: 16/30 | Batch: 3001/4292 | Batch Loss: 0.1816318780183792
+Time elapsed: 2028.3897459506989 | Epoch: 16/30 | Batch: 4001/4292 | Batch Loss: 0.22515083849430084
+Starting Evaluation for epoch: 16
+Time taken for train evaluation 32.065109729766846
+Time taken for validation evaluation 0.41655969619750977
+
+
+=========================
+Time elapsed: 2069.7808542251587
+Epoch: 16/30
+Epoch time: 145.36795854568481
+Train Acc: 0.9519719968618429
+Validation Acc: 0.8066449908555172
+Train Loss: 0.13952890678437865
+Validation Loss: 0.7039117896200753
+=========================
+
+
+Time elapsed: 2071.1013629436493 | Epoch: 17/30 | Batch: 1/4292 | Batch Loss: 0.14433322846889496
+Time elapsed: 2095.818959236145 | Epoch: 17/30 | Batch: 1001/4292 | Batch Loss: 0.1717674881219864
+Time elapsed: 2120.643965482712 | Epoch: 17/30 | Batch: 2001/4292 | Batch Loss: 0.23830311000347137
+Time elapsed: 2144.441315174103 | Epoch: 17/30 | Batch: 3001/4292 | Batch Loss: 0.20029595494270325
+Time elapsed: 2166.1997995376587 | Epoch: 17/30 | Batch: 4001/4292 | Batch Loss: 0.2380450814962387
+Starting Evaluation for epoch: 17
+Time taken for train evaluation 32.21361231803894
+Time taken for validation evaluation 0.415546178817749
+
+
+=========================
+Time elapsed: 2206.7027399539948
+Epoch: 17/30
+Epoch time: 136.9217348098755
+Train Acc: 0.9587416062486461
+Validation Acc: 0.8063401747612274
+Train Loss: 0.12154333559418234
+Validation Loss: 0.7447244466089955
+=========================
+
+
+Time elapsed: 2208.026177406311 | Epoch: 18/30 | Batch: 1/4292 | Batch Loss: 0.1664884239435196
+Time elapsed: 2230.0327582359314 | Epoch: 18/30 | Batch: 1001/4292 | Batch Loss: 0.11402992904186249
+Time elapsed: 2252.2547845840454 | Epoch: 18/30 | Batch: 2001/4292 | Batch Loss: 0.10701903700828552
+Time elapsed: 2273.376561641693 | Epoch: 18/30 | Batch: 3001/4292 | Batch Loss: 0.17977435886859894
+Time elapsed: 2294.7564704418182 | Epoch: 18/30 | Batch: 4001/4292 | Batch Loss: 0.15402163565158844
+Starting Evaluation for epoch: 18
+Time taken for train evaluation 32.12680220603943
+Time taken for validation evaluation 0.41669464111328125
+
+
+=========================
+Time elapsed: 2335.2742705345154
+Epoch: 18/30
+Epoch time: 128.57138466835022
+Train Acc: 0.963743726871108
+Validation Acc: 0.8016663279821175
+Train Loss: 0.10929405944077142
+Validation Loss: 0.8049504667659815
+=========================
+
+
+Time elapsed: 2336.6045224666595 | Epoch: 19/30 | Batch: 1/4292 | Batch Loss: 0.1102135106921196
+Time elapsed: 2359.2013001441956 | Epoch: 19/30 | Batch: 1001/4292 | Batch Loss: 0.0842602550983429
+Time elapsed: 2380.361255645752 | Epoch: 19/30 | Batch: 2001/4292 | Batch Loss: 0.20447507500648499
+Time elapsed: 2401.505378961563 | Epoch: 19/30 | Batch: 3001/4292 | Batch Loss: 0.15584208071231842
+Time elapsed: 2423.1970970630646 | Epoch: 19/30 | Batch: 4001/4292 | Batch Loss: 0.16167742013931274
+Starting Evaluation for epoch: 19
+Time taken for train evaluation 32.480961322784424
+Time taken for validation evaluation 0.42025303840637207
+
+
+=========================
+Time elapsed: 2463.504899740219
+Epoch: 19/30
+Epoch time: 128.2305052280426
+Train Acc: 0.9669401329166113
+Validation Acc: 0.8008534850640113
+Train Loss: 0.09634101657958118
+Validation Loss: 0.8615732684268188
+=========================
+
+
+Time elapsed: 2464.9730067253113 | Epoch: 20/30 | Batch: 1/4292 | Batch Loss: 0.1486467719078064
+Time elapsed: 2486.988101243973 | Epoch: 20/30 | Batch: 1001/4292 | Batch Loss: 0.2774968445301056
+Time elapsed: 2509.5311810970306 | Epoch: 20/30 | Batch: 2001/4292 | Batch Loss: 0.21454675495624542
+Time elapsed: 2532.1831505298615 | Epoch: 20/30 | Batch: 3001/4292 | Batch Loss: 0.16212773323059082
+Time elapsed: 2556.116504430771 | Epoch: 20/30 | Batch: 4001/4292 | Batch Loss: 0.18005062639713287
+Starting Evaluation for epoch: 20
+Time taken for train evaluation 32.46745824813843
+Time taken for validation evaluation 0.4168407917022705
+
+
+=========================
+Time elapsed: 2596.28981089592
+Epoch: 20/30
+Epoch time: 132.78476214408875
+Train Acc: 0.969817990523639
+Validation Acc: 0.8025807762649868
+Train Loss: 0.09090044125465803
+Validation Loss: 0.8444098936084615
+=========================
+
+
+Time elapsed: 2597.598599433899 | Epoch: 21/30 | Batch: 1/4292 | Batch Loss: 0.14931482076644897
+Time elapsed: 2619.440074443817 | Epoch: 21/30 | Batch: 1001/4292 | Batch Loss: 0.23198479413986206
+Time elapsed: 2640.542459487915 | Epoch: 21/30 | Batch: 2001/4292 | Batch Loss: 0.07521618902683258
+Time elapsed: 2661.8046469688416 | Epoch: 21/30 | Batch: 3001/4292 | Batch Loss: 0.16221964359283447
+Time elapsed: 2682.999076604843 | Epoch: 21/30 | Batch: 4001/4292 | Batch Loss: 0.2204030156135559
+Starting Evaluation for epoch: 21
+Time taken for train evaluation 32.11529612541199
+Time taken for validation evaluation 0.4158353805541992
+
+
+=========================
+Time elapsed: 2723.1144366264343
+Epoch: 21/30
+Epoch time: 126.82447838783264
+Train Acc: 0.9734494427222603
+Validation Acc: 0.7937411095305832
+Train Loss: 0.07941212849124292
+Validation Loss: 0.9810877542165304
+=========================
+
+
+Time elapsed: 2724.419213294983 | Epoch: 22/30 | Batch: 1/4292 | Batch Loss: 0.025751441717147827
+Time elapsed: 2746.1222949028015 | Epoch: 22/30 | Batch: 1001/4292 | Batch Loss: 0.07382096350193024
+Time elapsed: 2767.2952029705048 | Epoch: 22/30 | Batch: 2001/4292 | Batch Loss: 0.13317885994911194
+Time elapsed: 2788.833232164383 | Epoch: 22/30 | Batch: 3001/4292 | Batch Loss: 0.1365886628627777
+Time elapsed: 2811.954649925232 | Epoch: 22/30 | Batch: 4001/4292 | Batch Loss: 0.18664422631263733
+Starting Evaluation for epoch: 22
+Time taken for train evaluation 31.92083764076233
+Time taken for validation evaluation 0.41625332832336426
+
+
+=========================
+Time elapsed: 2852.486387491226
+Epoch: 22/30
+Epoch time: 129.37181448936462
+Train Acc: 0.9763436828204096
+Validation Acc: 0.7977037187563504
+Train Loss: 0.07298317697271367
+Validation Loss: 0.9969479130235442
+=========================
+
+
+Time elapsed: 2853.792436361313 | Epoch: 23/30 | Batch: 1/4292 | Batch Loss: 0.11539705097675323
+Time elapsed: 2874.9755268096924 | Epoch: 23/30 | Batch: 1001/4292 | Batch Loss: 0.0500771626830101
+Time elapsed: 2896.081404209137 | Epoch: 23/30 | Batch: 2001/4292 | Batch Loss: 0.12912292778491974
+Time elapsed: 2917.8501081466675 | Epoch: 23/30 | Batch: 3001/4292 | Batch Loss: 0.09384244680404663
+Time elapsed: 2939.7629227638245 | Epoch: 23/30 | Batch: 4001/4292 | Batch Loss: 0.15549269318580627
+Starting Evaluation for epoch: 23
+Time taken for train evaluation 32.28979277610779
+Time taken for validation evaluation 0.4225311279296875
+
+
+=========================
+Time elapsed: 2979.6042783260345
+Epoch: 23/30
+Epoch time: 127.11775803565979
+Train Acc: 0.978664535729303
+Validation Acc: 0.7989229831335094
+Train Loss: 0.06763911331811874
+Validation Loss: 0.9672688496982487
+=========================
+
+
+Time elapsed: 2980.983178138733 | Epoch: 24/30 | Batch: 1/4292 | Batch Loss: 0.149492546916008
+Time elapsed: 3002.2999396324158 | Epoch: 24/30 | Batch: 1001/4292 | Batch Loss: 0.11992153525352478
+Time elapsed: 3023.5555226802826 | Epoch: 24/30 | Batch: 2001/4292 | Batch Loss: 0.10059615224599838
+Time elapsed: 3045.2466611862183 | Epoch: 24/30 | Batch: 3001/4292 | Batch Loss: 0.16790497303009033
+Time elapsed: 3066.2409093379974 | Epoch: 24/30 | Batch: 4001/4292 | Batch Loss: 0.10152586549520493
+Starting Evaluation for epoch: 24
+Time taken for train evaluation 31.750038623809814
+Time taken for validation evaluation 0.4137294292449951
+
+
+=========================
+Time elapsed: 3105.77423787117
+Epoch: 24/30
+Epoch time: 126.16982817649841
+Train Acc: 0.9814768633718444
+Validation Acc: 0.7999390367811421
+Train Loss: 0.05869420477556686
+Validation Loss: 1.0025967415986181
+=========================
+
+
+Time elapsed: 3107.10319852829 | Epoch: 25/30 | Batch: 1/4292 | Batch Loss: 0.07523468881845474
+Time elapsed: 3128.3942799568176 | Epoch: 25/30 | Batch: 1001/4292 | Batch Loss: 0.10663361102342606
+Time elapsed: 3149.68657374382 | Epoch: 25/30 | Batch: 2001/4292 | Batch Loss: 0.06369403749704361
+Time elapsed: 3170.9359776973724 | Epoch: 25/30 | Batch: 3001/4292 | Batch Loss: 0.11291039735078812
+Time elapsed: 3192.464183330536 | Epoch: 25/30 | Batch: 4001/4292 | Batch Loss: 0.1414933055639267
+Starting Evaluation for epoch: 25
+Time taken for train evaluation 32.02861523628235
+Time taken for validation evaluation 0.4163689613342285
+
+
+=========================
+Time elapsed: 3232.3959567546844
+Epoch: 25/30
+Epoch time: 126.62158989906311
+Train Acc: 0.983522854485253
+Validation Acc: 0.7989229831335094
+Train Loss: 0.05523788693735724
+Validation Loss: 1.0410962733910398
+=========================
+
+
+Time elapsed: 3233.745896577835 | Epoch: 26/30 | Batch: 1/4292 | Batch Loss: 0.07872765511274338
+Time elapsed: 3254.9152970314026 | Epoch: 26/30 | Batch: 1001/4292 | Batch Loss: 0.12363144755363464
+Time elapsed: 3275.9228608608246 | Epoch: 26/30 | Batch: 2001/4292 | Batch Loss: 0.1286734789609909
+Time elapsed: 3297.251070022583 | Epoch: 26/30 | Batch: 3001/4292 | Batch Loss: 0.0952153354883194
+Time elapsed: 3318.859117269516 | Epoch: 26/30 | Batch: 4001/4292 | Batch Loss: 0.045209851115942
+Starting Evaluation for epoch: 26
+Time taken for train evaluation 32.36197590827942
+Time taken for validation evaluation 0.415820837020874
+
+
+=========================
+Time elapsed: 3359.1782908439636
+Epoch: 26/30
+Epoch time: 126.78218483924866
+Train Acc: 0.984411149559402
+Validation Acc: 0.7990245884982727
+Train Loss: 0.05015001818504485
+Validation Loss: 1.0896858492170836
+=========================
+
+
+Time elapsed: 3360.5530667304993 | Epoch: 27/30 | Batch: 1/4292 | Batch Loss: 0.11275871098041534
+Time elapsed: 3381.661353111267 | Epoch: 27/30 | Batch: 1001/4292 | Batch Loss: 0.09318623691797256
+Time elapsed: 3402.8084349632263 | Epoch: 27/30 | Batch: 2001/4292 | Batch Loss: 0.04074149578809738
+Time elapsed: 3424.430488586426 | Epoch: 27/30 | Batch: 3001/4292 | Batch Loss: 0.11293686926364899
+Time elapsed: 3446.3503272533417 | Epoch: 27/30 | Batch: 4001/4292 | Batch Loss: 0.09022576361894608
+Starting Evaluation for epoch: 27
+Time taken for train evaluation 32.31104373931885
+Time taken for validation evaluation 0.4147775173187256
+
+
+=========================
+Time elapsed: 3486.532535791397
+Epoch: 27/30
+Epoch time: 127.35411238670349
+Train Acc: 0.9855014953573841
+Validation Acc: 0.7957732168258485
+Train Loss: 0.0495192561964597
+Validation Loss: 1.0604313666005125
+=========================
+
+
+Time elapsed: 3487.8527438640594 | Epoch: 28/30 | Batch: 1/4292 | Batch Loss: 0.09018278867006302
+Time elapsed: 3509.295253753662 | Epoch: 28/30 | Batch: 1001/4292 | Batch Loss: 0.12290778756141663
+Time elapsed: 3531.4036152362823 | Epoch: 28/30 | Batch: 2001/4292 | Batch Loss: 0.16117358207702637
+Time elapsed: 3553.957061767578 | Epoch: 28/30 | Batch: 3001/4292 | Batch Loss: 0.07090002298355103
+Time elapsed: 3580.6442210674286 | Epoch: 28/30 | Batch: 4001/4292 | Batch Loss: 0.07640207558870316
+Starting Evaluation for epoch: 28
+Time taken for train evaluation 59.7669894695282
+Time taken for validation evaluation 1.4693713188171387
+
+
+=========================
+Time elapsed: 3664.134202003479
+Epoch: 28/30
+Epoch time: 177.6015546321869
+Train Acc: 0.9848461957125201
+Validation Acc: 0.7994310099573257
+Train Loss: 0.047643970937035277
+Validation Loss: 1.0943290892957405
+=========================
+
+
+Time elapsed: 3668.9480867385864 | Epoch: 29/30 | Batch: 1/4292 | Batch Loss: 0.07544496655464172
+Time elapsed: 3697.637347459793 | Epoch: 29/30 | Batch: 1001/4292 | Batch Loss: 0.1581299901008606
+Time elapsed: 3722.2324159145355 | Epoch: 29/30 | Batch: 2001/4292 | Batch Loss: 0.20862138271331787
+Time elapsed: 3750.799691915512 | Epoch: 29/30 | Batch: 3001/4292 | Batch Loss: 0.18504822254180908
+Time elapsed: 3778.4726111888885 | Epoch: 29/30 | Batch: 4001/4292 | Batch Loss: 0.1062801331281662
+Starting Evaluation for epoch: 29
+Time taken for train evaluation 91.68272852897644
+Time taken for validation evaluation 1.6645150184631348
+
+
+=========================
+Time elapsed: 3883.5894026756287
+Epoch: 29/30
+Epoch time: 219.4549572467804
+Train Acc: 0.9864007120922808
+Validation Acc: 0.797195691932534
+Train Loss: 0.045705343429590935
+Validation Loss: 1.0891590245587388
+=========================
+
+
+Time elapsed: 3889.08363199234 | Epoch: 30/30 | Batch: 1/4292 | Batch Loss: 0.1381482034921646
+Time elapsed: 3942.9473464488983 | Epoch: 30/30 | Batch: 1001/4292 | Batch Loss: 0.2211797535419464
+Time elapsed: 3979.3371970653534 | Epoch: 30/30 | Batch: 2001/4292 | Batch Loss: 0.08170969784259796
+Time elapsed: 4000.6430282592773 | Epoch: 30/30 | Batch: 3001/4292 | Batch Loss: 0.11121556162834167
+Time elapsed: 4030.52605509758 | Epoch: 30/30 | Batch: 4001/4292 | Batch Loss: 0.11869023740291595
+Starting Evaluation for epoch: 30
+Time taken for train evaluation 65.14953804016113
+Time taken for validation evaluation 0.4138622283935547
+
+
+=========================
+Time elapsed: 4107.679074048996
+Epoch: 30/30
+Epoch time: 224.0891981124878
+Train Acc: 0.9863552051724985
+Validation Acc: 0.7903881324933957
+Train Loss: 0.047696383826428414
+Validation Loss: 1.0516523050598148
+=========================
+
+
+Starting Loss: 0.6505030964882482 0.6521809685886742
+Ending Loss: 0.047696383826428414 1.0516523050598148
+Starting Accuracy: 0.7281726059264572 0.727087990245885
+Ending Accuracy: 0.9863552051724985 0.7903881324933957
+Time taken: 4112.617093324661
+
+
+
+Started training model: adam_001
+Time elapsed: 4.423105478286743 | Epoch: 1/30 | Batch: 1/4292 | Batch Loss: 1.391921877861023
+Time elapsed: 36.008986473083496 | Epoch: 1/30 | Batch: 1001/4292 | Batch Loss: 0.8720908761024475
+Time elapsed: 61.7936954498291 | Epoch: 1/30 | Batch: 2001/4292 | Batch Loss: 0.6756527423858643
+Time elapsed: 83.7260479927063 | Epoch: 1/30 | Batch: 3001/4292 | Batch Loss: 0.6894208192825317
+Time elapsed: 105.90386271476746 | Epoch: 1/30 | Batch: 4001/4292 | Batch Loss: 0.6688716411590576
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 34.45236921310425
+Time taken for validation evaluation 0.4284350872039795
+
+
+=========================
+Time elapsed: 148.5563199520111
+Epoch: 1/30
+Epoch time: 148.556334733963
+Train Acc: 0.7361126532900593
+Validation Acc: 0.7350132086974193
+Train Loss: 0.6316546397634067
+Validation Loss: 0.6341764773689763
+=========================
+
+
+Time elapsed: 150.25750374794006 | Epoch: 2/30 | Batch: 1/4292 | Batch Loss: 0.5601312518119812
+Time elapsed: 172.29839634895325 | Epoch: 2/30 | Batch: 1001/4292 | Batch Loss: 0.5989924669265747
+Time elapsed: 194.6254324913025 | Epoch: 2/30 | Batch: 2001/4292 | Batch Loss: 0.6911050081253052
+Time elapsed: 216.14356589317322 | Epoch: 2/30 | Batch: 3001/4292 | Batch Loss: 0.6006156802177429
+Time elapsed: 237.2363407611847 | Epoch: 2/30 | Batch: 4001/4292 | Batch Loss: 0.6687159538269043
+Starting Evaluation for epoch: 2
+Time taken for train evaluation 33.76604437828064
+Time taken for validation evaluation 0.40173768997192383
+
+
+=========================
+Time elapsed: 278.6402487754822
+Epoch: 2/30
+Epoch time: 130.08377242088318
+Train Acc: 0.778536024187838
+Validation Acc: 0.7694574273521642
+Train Loss: 0.5533459553983221
+Validation Loss: 0.5790920012657585
+=========================
+
+
+Time elapsed: 280.0181257724762 | Epoch: 3/30 | Batch: 1/4292 | Batch Loss: 0.48216909170150757
+Time elapsed: 299.98252964019775 | Epoch: 3/30 | Batch: 1001/4292 | Batch Loss: 0.6127746105194092
+Time elapsed: 321.5662658214569 | Epoch: 3/30 | Batch: 2001/4292 | Batch Loss: 0.5310680866241455
+Time elapsed: 342.830215215683 | Epoch: 3/30 | Batch: 3001/4292 | Batch Loss: 0.5643254518508911
+Time elapsed: 364.29878187179565 | Epoch: 3/30 | Batch: 4001/4292 | Batch Loss: 0.5179316401481628
+Starting Evaluation for epoch: 3
+Time taken for train evaluation 33.04819440841675
+Time taken for validation evaluation 0.4289257526397705
+
+
+=========================
+Time elapsed: 405.18043065071106
+Epoch: 3/30
+Epoch time: 126.54005789756775
+Train Acc: 0.8023470648946879
+Validation Acc: 0.7877463930095508
+Train Loss: 0.49565645909735867
+Validation Loss: 0.5358386371732121
+=========================
+
+
+Time elapsed: 406.79104351997375 | Epoch: 4/30 | Batch: 1/4292 | Batch Loss: 0.4975278675556183
+Time elapsed: 428.5374562740326 | Epoch: 4/30 | Batch: 1001/4292 | Batch Loss: 0.42766323685646057
+Time elapsed: 451.6370220184326 | Epoch: 4/30 | Batch: 2001/4292 | Batch Loss: 0.5481449961662292
+Time elapsed: 472.92921590805054 | Epoch: 4/30 | Batch: 3001/4292 | Batch Loss: 0.42129814624786377
+Time elapsed: 493.7460103034973 | Epoch: 4/30 | Batch: 4001/4292 | Batch Loss: 0.4511886239051819
+Starting Evaluation for epoch: 4
+Time taken for train evaluation 33.106844425201416
+Time taken for validation evaluation 0.40316033363342285
+
+
+=========================
+Time elapsed: 533.5213007926941
+Epoch: 4/30
+Epoch time: 128.34068894386292
+Train Acc: 0.8217402938290796
+Validation Acc: 0.7963828490144279
+Train Loss: 0.45300681098442586
+Validation Loss: 0.510302654491937
+=========================
+
+
+Time elapsed: 534.7517800331116 | Epoch: 5/30 | Batch: 1/4292 | Batch Loss: 0.36238861083984375
+Time elapsed: 556.7417275905609 | Epoch: 5/30 | Batch: 1001/4292 | Batch Loss: 0.48928582668304443
+Time elapsed: 578.6710662841797 | Epoch: 5/30 | Batch: 2001/4292 | Batch Loss: 0.5022323727607727
+Time elapsed: 599.5939989089966 | Epoch: 5/30 | Batch: 3001/4292 | Batch Loss: 0.4379478693008423
+Time elapsed: 621.6031193733215 | Epoch: 5/30 | Batch: 4001/4292 | Batch Loss: 0.4645552635192871
+Starting Evaluation for epoch: 5
+Time taken for train evaluation 33.316041469573975
+Time taken for validation evaluation 0.42784571647644043
+
+
+=========================
+Time elapsed: 663.2273461818695
+Epoch: 5/30
+Epoch time: 129.7059235572815
+Train Acc: 0.8337887059106208
+Validation Acc: 0.7979069294858768
+Train Loss: 0.426527282609636
+Validation Loss: 0.5122513513186191
+=========================
+
+
+Time elapsed: 664.6045491695404 | Epoch: 6/30 | Batch: 1/4292 | Batch Loss: 0.5515937805175781
+Time elapsed: 685.7290017604828 | Epoch: 6/30 | Batch: 1001/4292 | Batch Loss: 0.5659473538398743
+Time elapsed: 707.942253112793 | Epoch: 6/30 | Batch: 2001/4292 | Batch Loss: 0.38576775789260864
+Time elapsed: 729.3865110874176 | Epoch: 6/30 | Batch: 3001/4292 | Batch Loss: 0.3937678635120392
+Time elapsed: 750.915032863617 | Epoch: 6/30 | Batch: 4001/4292 | Batch Loss: 0.43007004261016846
+Starting Evaluation for epoch: 6
+Time taken for train evaluation 33.432488441467285
+Time taken for validation evaluation 0.4261348247528076
+
+
+=========================
+Time elapsed: 792.4955232143402
+Epoch: 6/30
+Epoch time: 129.26803302764893
+Train Acc: 0.852126174306065
+Validation Acc: 0.8004470636049583
+Train Loss: 0.3824847372433081
+Validation Loss: 0.5088274920526934
+=========================
+
+
+Time elapsed: 793.9512650966644 | Epoch: 7/30 | Batch: 1/4292 | Batch Loss: 0.31223925948143005
+Time elapsed: 814.9863517284393 | Epoch: 7/30 | Batch: 1001/4292 | Batch Loss: 0.4394044578075409
+Time elapsed: 836.6819550991058 | Epoch: 7/30 | Batch: 2001/4292 | Batch Loss: 0.5269747972488403
+Time elapsed: 858.6525530815125 | Epoch: 7/30 | Batch: 3001/4292 | Batch Loss: 0.4933856129646301
+Time elapsed: 880.1298315525055 | Epoch: 7/30 | Batch: 4001/4292 | Batch Loss: 0.4304025173187256
+Starting Evaluation for epoch: 7
+Time taken for train evaluation 33.59063005447388
+Time taken for validation evaluation 0.4244213104248047
+
+
+=========================
+Time elapsed: 921.6469569206238
+Epoch: 7/30
+Epoch time: 129.15127897262573
+Train Acc: 0.8674310615672219
+Validation Acc: 0.8009550904287747
+Train Loss: 0.35426529445240584
+Validation Loss: 0.5111099780029796
+=========================
+
+
+Time elapsed: 923.1621222496033 | Epoch: 8/30 | Batch: 1/4292 | Batch Loss: 0.36032921075820923
+Time elapsed: 944.8693759441376 | Epoch: 8/30 | Batch: 1001/4292 | Batch Loss: 0.27533280849456787
+Time elapsed: 966.4231233596802 | Epoch: 8/30 | Batch: 2001/4292 | Batch Loss: 0.3879240155220032
+Time elapsed: 988.0995297431946 | Epoch: 8/30 | Batch: 3001/4292 | Batch Loss: 0.35394287109375
+Time elapsed: 1009.9049537181854 | Epoch: 8/30 | Batch: 4001/4292 | Batch Loss: 0.3526955842971802
+Starting Evaluation for epoch: 8
+Time taken for train evaluation 33.14911890029907
+Time taken for validation evaluation 0.4029257297515869
+
+
+=========================
+Time elapsed: 1051.1588819026947
+Epoch: 8/30
+Epoch time: 129.51185417175293
+Train Acc: 0.8804824461607632
+Validation Acc: 0.8012599065230644
+Train Loss: 0.3234219682528041
+Validation Loss: 0.5156679750578937
+=========================
+
+
+Time elapsed: 1052.9222400188446 | Epoch: 9/30 | Batch: 1/4292 | Batch Loss: 0.31361275911331177
+Time elapsed: 1074.4083268642426 | Epoch: 9/30 | Batch: 1001/4292 | Batch Loss: 0.2805465757846832
+Time elapsed: 1095.6575236320496 | Epoch: 9/30 | Batch: 2001/4292 | Batch Loss: 0.437307745218277
+Time elapsed: 1116.556058883667 | Epoch: 9/30 | Batch: 3001/4292 | Batch Loss: 0.4302805960178375
+Time elapsed: 1137.8578560352325 | Epoch: 9/30 | Batch: 4001/4292 | Batch Loss: 0.4184536933898926
+Starting Evaluation for epoch: 9
+Time taken for train evaluation 33.58618521690369
+Time taken for validation evaluation 0.39084529876708984
+
+
+=========================
+Time elapsed: 1179.10928273201
+Epoch: 9/30
+Epoch time: 127.94992280006409
+Train Acc: 0.8930660196189433
+Validation Acc: 0.8009550904287747
+Train Loss: 0.293656680999061
+Validation Loss: 0.5420140531144959
+=========================
+
+
+Time elapsed: 1180.3417148590088 | Epoch: 10/30 | Batch: 1/4292 | Batch Loss: 0.263523668050766
+Time elapsed: 1202.2273943424225 | Epoch: 10/30 | Batch: 1001/4292 | Batch Loss: 0.2688925862312317
+Time elapsed: 1222.1641199588776 | Epoch: 10/30 | Batch: 2001/4292 | Batch Loss: 0.33193546533584595
+Time elapsed: 1243.4477097988129 | Epoch: 10/30 | Batch: 3001/4292 | Batch Loss: 0.332873672246933
+Time elapsed: 1264.2700185775757 | Epoch: 10/30 | Batch: 4001/4292 | Batch Loss: 0.4558119773864746
+Starting Evaluation for epoch: 10
+Time taken for train evaluation 33.08236289024353
+Time taken for validation evaluation 0.40351343154907227
+
+
+=========================
+Time elapsed: 1305.6364061832428
+Epoch: 10/30
+Epoch time: 126.52700805664062
+Train Acc: 0.9034288553917509
+Validation Acc: 0.8025807762649868
+Train Loss: 0.2672645696266042
+Validation Loss: 0.563731711319224
+=========================
+
+
+Time elapsed: 1307.1937284469604 | Epoch: 11/30 | Batch: 1/4292 | Batch Loss: 0.24478498101234436
+Time elapsed: 1328.4848220348358 | Epoch: 11/30 | Batch: 1001/4292 | Batch Loss: 0.3557988703250885
+Time elapsed: 1349.9885096549988 | Epoch: 11/30 | Batch: 2001/4292 | Batch Loss: 0.28542980551719666
+Time elapsed: 1370.810141324997 | Epoch: 11/30 | Batch: 3001/4292 | Batch Loss: 0.2596317529678345
+Time elapsed: 1392.5717720985413 | Epoch: 11/30 | Batch: 4001/4292 | Batch Loss: 0.22037141025066376
+Starting Evaluation for epoch: 11
+Time taken for train evaluation 33.46669387817383
+Time taken for validation evaluation 0.4224059581756592
+
+
+=========================
+Time elapsed: 1433.847543478012
+Epoch: 11/30
+Epoch time: 128.2109875679016
+Train Acc: 0.9116965525777849
+Validation Acc: 0.7920138183296078
+Train Loss: 0.2432933406588346
+Validation Loss: 0.6157344175993584
+=========================
+
+
+Time elapsed: 1435.2946999073029 | Epoch: 12/30 | Batch: 1/4292 | Batch Loss: 0.2319680005311966
+Time elapsed: 1457.16543841362 | Epoch: 12/30 | Batch: 1001/4292 | Batch Loss: 0.23794004321098328
+Time elapsed: 1478.0984756946564 | Epoch: 12/30 | Batch: 2001/4292 | Batch Loss: 0.2983523905277252
+Time elapsed: 1499.6083624362946 | Epoch: 12/30 | Batch: 3001/4292 | Batch Loss: 0.23409557342529297
+Time elapsed: 1521.1515736579895 | Epoch: 12/30 | Batch: 4001/4292 | Batch Loss: 0.2991626560688019
+Starting Evaluation for epoch: 12
+Time taken for train evaluation 33.042508602142334
+Time taken for validation evaluation 0.44681215286254883
+
+
+=========================
+Time elapsed: 1562.093098640442
+Epoch: 12/30
+Epoch time: 128.245343208313
+Train Acc: 0.9196365999413871
+Validation Acc: 0.7931314773420036
+Train Loss: 0.2239806370601011
+Validation Loss: 0.6367089259287759
+=========================
+
+
+Time elapsed: 1563.6335208415985 | Epoch: 13/30 | Batch: 1/4292 | Batch Loss: 0.253803551197052
+Time elapsed: 1585.1644377708435 | Epoch: 13/30 | Batch: 1001/4292 | Batch Loss: 0.264443576335907
+Time elapsed: 1607.4000706672668 | Epoch: 13/30 | Batch: 2001/4292 | Batch Loss: 0.22686024010181427
+Time elapsed: 1628.0537786483765 | Epoch: 13/30 | Batch: 3001/4292 | Batch Loss: 0.3847271800041199
+Time elapsed: 1649.6981666088104 | Epoch: 13/30 | Batch: 4001/4292 | Batch Loss: 0.22112318873405457
+Starting Evaluation for epoch: 13
+Time taken for train evaluation 33.84483075141907
+Time taken for validation evaluation 0.4029421806335449
+
+
+=========================
+Time elapsed: 1691.1588561534882
+Epoch: 13/30
+Epoch time: 129.065603017807
+Train Acc: 0.9277404722162051
+Validation Acc: 0.7906929485876855
+Train Loss: 0.20488219048213244
+Validation Loss: 0.6705318062897985
+=========================
+
+
+Time elapsed: 1692.4136514663696 | Epoch: 14/30 | Batch: 1/4292 | Batch Loss: 0.23651419579982758
+Time elapsed: 1713.581699848175 | Epoch: 14/30 | Batch: 1001/4292 | Batch Loss: 0.24419626593589783
+Time elapsed: 1734.6887500286102 | Epoch: 14/30 | Batch: 2001/4292 | Batch Loss: 0.2958589196205139
+Time elapsed: 1754.3701555728912 | Epoch: 14/30 | Batch: 3001/4292 | Batch Loss: 0.23131230473518372
+Time elapsed: 1775.7863399982452 | Epoch: 14/30 | Batch: 4001/4292 | Batch Loss: 0.3652205467224121
+Starting Evaluation for epoch: 14
+Time taken for train evaluation 34.191840410232544
+Time taken for validation evaluation 0.43645286560058594
+
+
+=========================
+Time elapsed: 1817.7930450439453
+Epoch: 14/30
+Epoch time: 126.6340651512146
+Train Acc: 0.9357806348033282
+Validation Acc: 0.7920138183296078
+Train Loss: 0.18921430918928267
+Validation Loss: 0.6910924908349825
+=========================
+
+
+Time elapsed: 1819.361245393753 | Epoch: 15/30 | Batch: 1/4292 | Batch Loss: 0.19533677399158478
+Time elapsed: 1840.7600128650665 | Epoch: 15/30 | Batch: 1001/4292 | Batch Loss: 0.19769641757011414
+Time elapsed: 1863.102122783661 | Epoch: 15/30 | Batch: 2001/4292 | Batch Loss: 0.17640407383441925
+Time elapsed: 1884.5654871463776 | Epoch: 15/30 | Batch: 3001/4292 | Batch Loss: 0.17176564037799835
+Time elapsed: 1905.5973076820374 | Epoch: 15/30 | Batch: 4001/4292 | Batch Loss: 0.3770110607147217
+Starting Evaluation for epoch: 15
+Time taken for train evaluation 33.66480231285095
+Time taken for validation evaluation 0.4111204147338867
+
+
+=========================
+Time elapsed: 1946.804036617279
+Epoch: 15/30
+Epoch time: 129.01082754135132
+Train Acc: 0.9411322485697176
+Validation Acc: 0.7841902052428368
+Train Loss: 0.16708296300829825
+Validation Loss: 0.8056972461051026
+=========================
+
+
+Time elapsed: 1948.047929763794 | Epoch: 16/30 | Batch: 1/4292 | Batch Loss: 0.12434548139572144
+Time elapsed: 1969.2317242622375 | Epoch: 16/30 | Batch: 1001/4292 | Batch Loss: 0.20568129420280457
+Time elapsed: 1990.6359248161316 | Epoch: 16/30 | Batch: 2001/4292 | Batch Loss: 0.2473384588956833
+Time elapsed: 2011.9996404647827 | Epoch: 16/30 | Batch: 3001/4292 | Batch Loss: 0.1739221066236496
+Time elapsed: 2033.5624248981476 | Epoch: 16/30 | Batch: 4001/4292 | Batch Loss: 0.27934300899505615
+Starting Evaluation for epoch: 16
+Time taken for train evaluation 35.75809574127197
+Time taken for validation evaluation 0.4223954677581787
+
+
+=========================
+Time elapsed: 2077.409740924835
+Epoch: 16/30
+Epoch time: 130.60553669929504
+Train Acc: 0.9446654058216092
+Validation Acc: 0.7861207071733387
+Train Loss: 0.15313395535328198
+Validation Loss: 0.8442424572088253
+=========================
+
+
+Time elapsed: 2078.7361216545105 | Epoch: 17/30 | Batch: 1/4292 | Batch Loss: 0.2053726315498352
+Time elapsed: 2098.877732038498 | Epoch: 17/30 | Batch: 1001/4292 | Batch Loss: 0.08184303343296051
+Time elapsed: 2119.805171728134 | Epoch: 17/30 | Batch: 2001/4292 | Batch Loss: 0.201694056391716
+Time elapsed: 2141.9731419086456 | Epoch: 17/30 | Batch: 3001/4292 | Batch Loss: 0.27816659212112427
+Time elapsed: 2163.3024814128876 | Epoch: 17/30 | Batch: 4001/4292 | Batch Loss: 0.238742396235466
+Starting Evaluation for epoch: 17
+Time taken for train evaluation 34.27653455734253
+Time taken for validation evaluation 0.41822338104248047
+
+
+=========================
+Time elapsed: 2205.738184452057
+Epoch: 17/30
+Epoch time: 128.3282904624939
+Train Acc: 0.950435683249995
+Validation Acc: 0.7867303393619183
+Train Loss: 0.14611710167750663
+Validation Loss: 0.7999222352964513
+=========================
+
+
+Time elapsed: 2207.2783901691437 | Epoch: 18/30 | Batch: 1/4292 | Batch Loss: 0.1900378316640854
+Time elapsed: 2228.5550315380096 | Epoch: 18/30 | Batch: 1001/4292 | Batch Loss: 0.17296019196510315
+Time elapsed: 2249.938103914261 | Epoch: 18/30 | Batch: 2001/4292 | Batch Loss: 0.21143215894699097
+Time elapsed: 2271.0487196445465 | Epoch: 18/30 | Batch: 3001/4292 | Batch Loss: 0.15404309332370758
+Time elapsed: 2291.4574637413025 | Epoch: 18/30 | Batch: 4001/4292 | Batch Loss: 0.23154562711715698
+Starting Evaluation for epoch: 18
+Time taken for train evaluation 33.893187046051025
+Time taken for validation evaluation 0.4499835968017578
+
+
+=========================
+Time elapsed: 2332.560426235199
+Epoch: 18/30
+Epoch time: 126.82209348678589
+Train Acc: 0.9524798540866124
+Validation Acc: 0.7806340174761227
+Train Loss: 0.13941339806035277
+Validation Loss: 0.8542372565084394
+=========================
+
+
+Time elapsed: 2334.4046547412872 | Epoch: 19/30 | Batch: 1/4292 | Batch Loss: 0.21373969316482544
+Time elapsed: 2355.745250940323 | Epoch: 19/30 | Batch: 1001/4292 | Batch Loss: 0.2517704963684082
+Time elapsed: 2376.7953402996063 | Epoch: 19/30 | Batch: 2001/4292 | Batch Loss: 0.10955245792865753
+Time elapsed: 2398.8285291194916 | Epoch: 19/30 | Batch: 3001/4292 | Batch Loss: 0.2547690272331238
+Time elapsed: 2421.0120148658752 | Epoch: 19/30 | Batch: 4001/4292 | Batch Loss: 0.22499196231365204
+Starting Evaluation for epoch: 19
+Time taken for train evaluation 41.10652756690979
+Time taken for validation evaluation 0.8820948600769043
+
+
+=========================
+Time elapsed: 2471.3781757354736
+Epoch: 19/30
+Epoch time: 138.81757497787476
+Train Acc: 0.9569249700109399
+Validation Acc: 0.7810404389351758
+Train Loss: 0.13032654471530086
+Validation Loss: 0.8580694666506676
+=========================
+
+
+Time elapsed: 2475.339378118515 | Epoch: 20/30 | Batch: 1/4292 | Batch Loss: 0.15682917833328247
+Time elapsed: 2512.2325773239136 | Epoch: 20/30 | Batch: 1001/4292 | Batch Loss: 0.10146018117666245
+Time elapsed: 2538.8669259548187 | Epoch: 20/30 | Batch: 2001/4292 | Batch Loss: 0.23037292063236237
+Time elapsed: 2567.6684279441833 | Epoch: 20/30 | Batch: 3001/4292 | Batch Loss: 0.16019192337989807
+Time elapsed: 2593.0319924354553 | Epoch: 20/30 | Batch: 4001/4292 | Batch Loss: 0.1608729362487793
+Starting Evaluation for epoch: 20
+Time taken for train evaluation 66.8224265575409
+Time taken for validation evaluation 0.869950532913208
+
+
+=========================
+Time elapsed: 2669.542282104492
+Epoch: 20/30
+Epoch time: 198.1638102531433
+Train Acc: 0.9576858457096986
+Validation Acc: 0.7878479983743142
+Train Loss: 0.12097845640812377
+Validation Loss: 0.9178293658281531
+=========================
+
+
+Time elapsed: 2674.082211971283 | Epoch: 21/30 | Batch: 1/4292 | Batch Loss: 0.20343182981014252
+Time elapsed: 2731.8629245758057 | Epoch: 21/30 | Batch: 1001/4292 | Batch Loss: 0.12279976904392242
+Time elapsed: 2789.0819475650787 | Epoch: 21/30 | Batch: 2001/4292 | Batch Loss: 0.20951062440872192
+Time elapsed: 2837.1194088459015 | Epoch: 21/30 | Batch: 3001/4292 | Batch Loss: 0.19068661332130432
+Time elapsed: 2869.7574546337128 | Epoch: 21/30 | Batch: 4001/4292 | Batch Loss: 0.2213595062494278
+Starting Evaluation for epoch: 21
+Time taken for train evaluation 52.670326948165894
+Time taken for validation evaluation 1.0764155387878418
+
+
+=========================
+Time elapsed: 2932.3773736953735
+Epoch: 21/30
+Epoch time: 262.83486342430115
+Train Acc: 0.9622237957503817
+Validation Acc: 0.7867303393619183
+Train Loss: 0.1107626826514414
+Validation Loss: 0.9086011180643191
+=========================
+
+
+Time elapsed: 2937.6027731895447 | Epoch: 22/30 | Batch: 1/4292 | Batch Loss: 0.241852268576622
+Time elapsed: 2969.021544456482 | Epoch: 22/30 | Batch: 1001/4292 | Batch Loss: 0.21136225759983063
+Time elapsed: 2997.3117547035217 | Epoch: 22/30 | Batch: 2001/4292 | Batch Loss: 0.22695215046405792
+Time elapsed: 3024.0530438423157 | Epoch: 22/30 | Batch: 3001/4292 | Batch Loss: 0.22512593865394592
+Time elapsed: 3049.6553859710693 | Epoch: 22/30 | Batch: 4001/4292 | Batch Loss: 0.15241976082324982
+Starting Evaluation for epoch: 22
+Time taken for train evaluation 34.612433671951294
+Time taken for validation evaluation 0.41983795166015625
+
+
+=========================
+Time elapsed: 3092.206409215927
+Epoch: 22/30
+Epoch time: 159.82865142822266
+Train Acc: 0.9648923215264114
+Validation Acc: 0.7791099370046738
+Train Loss: 0.10339477491368217
+Validation Loss: 1.020408276413253
+=========================
+
+
+Time elapsed: 3094.2018933296204 | Epoch: 23/30 | Batch: 1/4292 | Batch Loss: 0.08528581261634827
+Time elapsed: 3116.2792599201202 | Epoch: 23/30 | Batch: 1001/4292 | Batch Loss: 0.14955586194992065
+Time elapsed: 3138.223153591156 | Epoch: 23/30 | Batch: 2001/4292 | Batch Loss: 0.1682305783033371
+Time elapsed: 3159.7487766742706 | Epoch: 23/30 | Batch: 3001/4292 | Batch Loss: 0.15019671618938446
+Time elapsed: 3181.9084227085114 | Epoch: 23/30 | Batch: 4001/4292 | Batch Loss: 0.16610074043273926
+Starting Evaluation for epoch: 23
+Time taken for train evaluation 34.460182666778564
+Time taken for validation evaluation 0.42867588996887207
+
+
+=========================
+Time elapsed: 3224.5807893276215
+Epoch: 23/30
+Epoch time: 132.37423276901245
+Train Acc: 0.9658243032435512
+Validation Acc: 0.7800243852875431
+Train Loss: 0.10552563376473455
+Validation Loss: 0.9140360871603566
+=========================
+
+
+Time elapsed: 3226.1909408569336 | Epoch: 24/30 | Batch: 1/4292 | Batch Loss: 0.1392049491405487
+Time elapsed: 3248.0125856399536 | Epoch: 24/30 | Batch: 1001/4292 | Batch Loss: 0.09433802962303162
+Time elapsed: 3269.4335334300995 | Epoch: 24/30 | Batch: 2001/4292 | Batch Loss: 0.09215950965881348
+Time elapsed: 3290.94415473938 | Epoch: 24/30 | Batch: 3001/4292 | Batch Loss: 0.11941816657781601
+Time elapsed: 3311.4927122592926 | Epoch: 24/30 | Batch: 4001/4292 | Batch Loss: 0.20344536006450653
+Starting Evaluation for epoch: 24
+Time taken for train evaluation 34.95296049118042
+Time taken for validation evaluation 0.42543506622314453
+
+
+=========================
+Time elapsed: 3354.668063879013
+Epoch: 24/30
+Epoch time: 130.08711957931519
+Train Acc: 0.9674279670966767
+Validation Acc: 0.7812436496647023
+Train Loss: 0.09705571770268435
+Validation Loss: 1.0822390170873508
+=========================
+
+
+Time elapsed: 3356.229280948639 | Epoch: 25/30 | Batch: 1/4292 | Batch Loss: 0.11743032932281494
+Time elapsed: 3378.0852625370026 | Epoch: 25/30 | Batch: 1001/4292 | Batch Loss: 0.1693740040063858
+Time elapsed: 3401.2579793930054 | Epoch: 25/30 | Batch: 2001/4292 | Batch Loss: 0.09047593176364899
+Time elapsed: 3423.115349292755 | Epoch: 25/30 | Batch: 3001/4292 | Batch Loss: 0.17483651638031006
+Time elapsed: 3444.6407556533813 | Epoch: 25/30 | Batch: 4001/4292 | Batch Loss: 0.18824419379234314
+Starting Evaluation for epoch: 25
+Time taken for train evaluation 34.530235290527344
+Time taken for validation evaluation 0.42174458503723145
+
+
+=========================
+Time elapsed: 3487.538105726242
+Epoch: 25/30
+Epoch time: 132.869882106781
+Train Acc: 0.9693975065848512
+Validation Acc: 0.7810404389351758
+Train Loss: 0.09065884173081978
+Validation Loss: 1.0542639940401761
+=========================
+
+
+Time elapsed: 3489.5014295578003 | Epoch: 26/30 | Batch: 1/4292 | Batch Loss: 0.07150200009346008
+Time elapsed: 3511.317209005356 | Epoch: 26/30 | Batch: 1001/4292 | Batch Loss: 0.06587596237659454
+Time elapsed: 3532.7431473731995 | Epoch: 26/30 | Batch: 2001/4292 | Batch Loss: 0.21599961817264557
+Time elapsed: 3555.2884221076965 | Epoch: 26/30 | Batch: 3001/4292 | Batch Loss: 0.16619212925434113
+Time elapsed: 3577.087592124939 | Epoch: 26/30 | Batch: 4001/4292 | Batch Loss: 0.09994406998157501
+Starting Evaluation for epoch: 26
+Time taken for train evaluation 34.33238101005554
+Time taken for validation evaluation 0.40184712409973145
+
+
+=========================
+Time elapsed: 3619.3946838378906
+Epoch: 26/30
+Epoch time: 131.85640811920166
+Train Acc: 0.9714835437876683
+Validation Acc: 0.7747409063198537
+Train Loss: 0.08717681902190887
+Validation Loss: 1.075559918823777
+=========================
+
+
+Time elapsed: 3621.283090353012 | Epoch: 27/30 | Batch: 1/4292 | Batch Loss: 0.10922198742628098
+Time elapsed: 3641.176370382309 | Epoch: 27/30 | Batch: 1001/4292 | Batch Loss: 0.14980997145175934
+Time elapsed: 3663.6085691452026 | Epoch: 27/30 | Batch: 2001/4292 | Batch Loss: 0.11116109788417816
+Time elapsed: 3684.4121446609497 | Epoch: 27/30 | Batch: 3001/4292 | Batch Loss: 0.13795045018196106
+Time elapsed: 3705.0970797538757 | Epoch: 27/30 | Batch: 4001/4292 | Batch Loss: 0.15877193212509155
+Starting Evaluation for epoch: 27
+Time taken for train evaluation 34.06285905838013
+Time taken for validation evaluation 0.4258120059967041
+
+
+=========================
+Time elapsed: 3747.018107652664
+Epoch: 27/30
+Epoch time: 127.62327408790588
+Train Acc: 0.9700164006938895
+Validation Acc: 0.7796179638284901
+Train Loss: 0.0892779538459068
+Validation Loss: 1.0477930218362876
+=========================
+
+
+Time elapsed: 3748.556760787964 | Epoch: 28/30 | Batch: 1/4292 | Batch Loss: 0.10695915669202805
+Time elapsed: 3770.7162613868713 | Epoch: 28/30 | Batch: 1001/4292 | Batch Loss: 0.0972946360707283
+Time elapsed: 3792.193817138672 | Epoch: 28/30 | Batch: 2001/4292 | Batch Loss: 0.13660764694213867
+Time elapsed: 3814.371022462845 | Epoch: 28/30 | Batch: 3001/4292 | Batch Loss: 0.22542478144168854
+Time elapsed: 3835.922090768814 | Epoch: 28/30 | Batch: 4001/4292 | Batch Loss: 0.16993170976638794
+Starting Evaluation for epoch: 28
+Time taken for train evaluation 34.75020170211792
+Time taken for validation evaluation 0.4182093143463135
+
+
+=========================
+Time elapsed: 3878.9214458465576
+Epoch: 28/30
+Epoch time: 131.90318894386292
+Train Acc: 0.9726812859163364
+Validation Acc: 0.7774842511684616
+Train Loss: 0.07869294462996543
+Validation Loss: 1.1339161803484497
+=========================
+
+
+Time elapsed: 3880.9190554618835 | Epoch: 29/30 | Batch: 1/4292 | Batch Loss: 0.058245450258255005
+Time elapsed: 3902.9073235988617 | Epoch: 29/30 | Batch: 1001/4292 | Batch Loss: 0.1357872188091278
+Time elapsed: 3925.208827018738 | Epoch: 29/30 | Batch: 2001/4292 | Batch Loss: 0.13993163406848907
+Time elapsed: 3947.8842725753784 | Epoch: 29/30 | Batch: 3001/4292 | Batch Loss: 0.14271895587444305
+Time elapsed: 3969.2537956237793 | Epoch: 29/30 | Batch: 4001/4292 | Batch Loss: 0.17445819079875946
+Starting Evaluation for epoch: 29
+Time taken for train evaluation 34.28755760192871
+Time taken for validation evaluation 0.43102264404296875
+
+
+=========================
+Time elapsed: 4011.851809501648
+Epoch: 29/30
+Epoch time: 132.93020129203796
+Train Acc: 0.9719440738158645
+Validation Acc: 0.7750457224141435
+Train Loss: 0.08364353912031638
+Validation Loss: 1.0972922805895822
+=========================
+
+
+Time elapsed: 4013.120804786682 | Epoch: 30/30 | Batch: 1/4292 | Batch Loss: 0.05588790774345398
+Time elapsed: 4035.611474752426 | Epoch: 30/30 | Batch: 1001/4292 | Batch Loss: 0.08946425467729568
+Time elapsed: 4057.2616894245148 | Epoch: 30/30 | Batch: 2001/4292 | Batch Loss: 0.14385007321834564
+Time elapsed: 4079.029245376587 | Epoch: 30/30 | Batch: 3001/4292 | Batch Loss: 0.11550287157297134
+Time elapsed: 4100.771569013596 | Epoch: 30/30 | Batch: 4001/4292 | Batch Loss: 0.1421835720539093
+Starting Evaluation for epoch: 30
+Time taken for train evaluation 32.92501401901245
+Time taken for validation evaluation 0.40369653701782227
+
+
+=========================
+Time elapsed: 4141.360626459122
+Epoch: 30/30
+Epoch time: 129.5086648464203
+Train Acc: 0.9742958714302097
+Validation Acc: 0.7820564925828084
+Train Loss: 0.07947920406326554
+Validation Loss: 1.031544699002223
+=========================
+
+
+Starting Loss: 0.6316546397634067 0.6341764773689763
+Ending Loss: 0.07947920406326554 1.031544699002223
+Starting Accuracy: 0.7361126532900593 0.7350132086974193
+Ending Accuracy: 0.9742958714302097 0.7820564925828084
+Time taken: 4142.160491228104
+
+
+
+Started training model: adam_005
+Time elapsed: 1.5770070552825928 | Epoch: 1/30 | Batch: 1/4292 | Batch Loss: 1.3774452209472656
+Time elapsed: 22.751826763153076 | Epoch: 1/30 | Batch: 1001/4292 | Batch Loss: 1.10019052028656
+Time elapsed: 44.721338510513306 | Epoch: 1/30 | Batch: 2001/4292 | Batch Loss: 1.0974090099334717
+Time elapsed: 66.49087977409363 | Epoch: 1/30 | Batch: 3001/4292 | Batch Loss: 1.098765254020691
+Time elapsed: 88.36698579788208 | Epoch: 1/30 | Batch: 4001/4292 | Batch Loss: 1.1011722087860107
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 34.631503105163574
+Time taken for validation evaluation 0.7538166046142578
+
+
+=========================
+Time elapsed: 131.18004846572876
+Epoch: 1/30
+Epoch time: 131.180073261261
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0993123846846782
+Validation Loss: 1.0993178165000135
+=========================
+
+
+Time elapsed: 132.8887062072754 | Epoch: 2/30 | Batch: 1/4292 | Batch Loss: 1.09837806224823
+Time elapsed: 154.42411375045776 | Epoch: 2/30 | Batch: 1001/4292 | Batch Loss: 1.0983541011810303
+Time elapsed: 175.02341437339783 | Epoch: 2/30 | Batch: 2001/4292 | Batch Loss: 1.0984530448913574
+Time elapsed: 197.00963282585144 | Epoch: 2/30 | Batch: 3001/4292 | Batch Loss: 1.098381519317627
+Time elapsed: 219.4030318260193 | Epoch: 2/30 | Batch: 4001/4292 | Batch Loss: 1.098251223564148
+Starting Evaluation for epoch: 2
+Time taken for train evaluation 34.29720377922058
+Time taken for validation evaluation 0.42438387870788574
+
+
+=========================
+Time elapsed: 261.2915723323822
+Epoch: 2/30
+Epoch time: 130.11133646965027
+Train Acc: 0.3326828877599128
+Validation Acc: 0.3285917496443812
+Train Loss: 1.098624230758938
+Validation Loss: 1.0986418286563662
+=========================
+
+
+Time elapsed: 262.85262417793274 | Epoch: 3/30 | Batch: 1/4292 | Batch Loss: 1.0986562967300415
+Time elapsed: 284.43484592437744 | Epoch: 3/30 | Batch: 1001/4292 | Batch Loss: 1.098799705505371
+Time elapsed: 306.2145299911499 | Epoch: 3/30 | Batch: 2001/4292 | Batch Loss: 1.1012334823608398
+Time elapsed: 327.6892263889313 | Epoch: 3/30 | Batch: 3001/4292 | Batch Loss: 1.1005351543426514
+Time elapsed: 348.86636209487915 | Epoch: 3/30 | Batch: 4001/4292 | Batch Loss: 1.1002247333526611
+Starting Evaluation for epoch: 3
+Time taken for train evaluation 34.91899800300598
+Time taken for validation evaluation 0.42614316940307617
+
+
+=========================
+Time elapsed: 391.49997782707214
+Epoch: 3/30
+Epoch time: 130.20825505256653
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0986685527444535
+Validation Loss: 1.0987481049613432
+=========================
+
+
+Time elapsed: 393.0454490184784 | Epoch: 4/30 | Batch: 1/4292 | Batch Loss: 1.0985172986984253
+Time elapsed: 415.39779591560364 | Epoch: 4/30 | Batch: 1001/4292 | Batch Loss: 1.099367618560791
+Time elapsed: 437.025025844574 | Epoch: 4/30 | Batch: 2001/4292 | Batch Loss: 1.0985671281814575
+Time elapsed: 459.1203122138977 | Epoch: 4/30 | Batch: 3001/4292 | Batch Loss: 1.1010925769805908
+Time elapsed: 480.72117042541504 | Epoch: 4/30 | Batch: 4001/4292 | Batch Loss: 1.1001733541488647
+Starting Evaluation for epoch: 4
+Time taken for train evaluation 33.634106159210205
+Time taken for validation evaluation 0.4295635223388672
+
+
+=========================
+Time elapsed: 522.1147928237915
+Epoch: 4/30
+Epoch time: 130.61466574668884
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0986762978312372
+Validation Loss: 1.0987389204681852
+=========================
+
+
+Time elapsed: 523.6562867164612 | Epoch: 5/30 | Batch: 1/4292 | Batch Loss: 1.0978511571884155
+Time elapsed: 545.4704942703247 | Epoch: 5/30 | Batch: 1001/4292 | Batch Loss: 1.0989515781402588
+Time elapsed: 565.8510935306549 | Epoch: 5/30 | Batch: 2001/4292 | Batch Loss: 1.0998986959457397
+Time elapsed: 587.6410834789276 | Epoch: 5/30 | Batch: 3001/4292 | Batch Loss: 1.0969213247299194
+Time elapsed: 609.1533315181732 | Epoch: 5/30 | Batch: 4001/4292 | Batch Loss: 1.098405361175537
+Starting Evaluation for epoch: 5
+Time taken for train evaluation 34.57880926132202
+Time taken for validation evaluation 0.42204856872558594
+
+
+=========================
+Time elapsed: 651.2901957035065
+Epoch: 5/30
+Epoch time: 129.17525839805603
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0986267569296986
+Validation Loss: 1.098646184434447
+=========================
+
+
+Time elapsed: 652.8140358924866 | Epoch: 6/30 | Batch: 1/4292 | Batch Loss: 1.0975031852722168
+Time elapsed: 675.2930879592896 | Epoch: 6/30 | Batch: 1001/4292 | Batch Loss: 1.0981645584106445
+Time elapsed: 697.1172244548798 | Epoch: 6/30 | Batch: 2001/4292 | Batch Loss: 1.0982170104980469
+Time elapsed: 718.7792015075684 | Epoch: 6/30 | Batch: 3001/4292 | Batch Loss: 1.1014703512191772
+Time elapsed: 741.1098511219025 | Epoch: 6/30 | Batch: 4001/4292 | Batch Loss: 1.1006262302398682
+Starting Evaluation for epoch: 6
+Time taken for train evaluation 35.285536766052246
+Time taken for validation evaluation 0.45039916038513184
+
+
+=========================
+Time elapsed: 784.1340222358704
+Epoch: 6/30
+Epoch time: 132.84368324279785
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0986444506900221
+Validation Loss: 1.0986500975562896
+=========================
+
+
+Time elapsed: 785.5165395736694 | Epoch: 7/30 | Batch: 1/4292 | Batch Loss: 1.098456859588623
+Time elapsed: 806.5078418254852 | Epoch: 7/30 | Batch: 1001/4292 | Batch Loss: 1.0979578495025635
+Time elapsed: 827.777745962143 | Epoch: 7/30 | Batch: 2001/4292 | Batch Loss: 1.0983176231384277
+Time elapsed: 849.0206477642059 | Epoch: 7/30 | Batch: 3001/4292 | Batch Loss: 1.0949244499206543
+Time elapsed: 870.1345937252045 | Epoch: 7/30 | Batch: 4001/4292 | Batch Loss: 1.0975818634033203
+Starting Evaluation for epoch: 7
+Time taken for train evaluation 32.63145589828491
+Time taken for validation evaluation 0.40548181533813477
+
+
+=========================
+Time elapsed: 910.6933109760284
+Epoch: 7/30
+Epoch time: 126.5591368675232
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0987698227125304
+Validation Loss: 1.0989364786037608
+=========================
+
+
+Time elapsed: 912.1719920635223 | Epoch: 8/30 | Batch: 1/4292 | Batch Loss: 1.098641276359558
+Time elapsed: 933.0141439437866 | Epoch: 8/30 | Batch: 1001/4292 | Batch Loss: 1.0990288257598877
+Time elapsed: 954.4085803031921 | Epoch: 8/30 | Batch: 2001/4292 | Batch Loss: 1.100892186164856
+Time elapsed: 973.8871083259583 | Epoch: 8/30 | Batch: 3001/4292 | Batch Loss: 1.099026083946228
+Time elapsed: 995.4643864631653 | Epoch: 8/30 | Batch: 4001/4292 | Batch Loss: 1.0987533330917358
+Starting Evaluation for epoch: 8
+Time taken for train evaluation 33.183773040771484
+Time taken for validation evaluation 0.4225654602050781
+
+
+=========================
+Time elapsed: 1036.1917839050293
+Epoch: 8/30
+Epoch time: 125.49834060668945
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.098679314359612
+Validation Loss: 1.0986098365991055
+=========================
+
+
+Time elapsed: 1037.5604891777039 | Epoch: 9/30 | Batch: 1/4292 | Batch Loss: 1.0990991592407227
+Time elapsed: 1058.3273029327393 | Epoch: 9/30 | Batch: 1001/4292 | Batch Loss: 1.0983946323394775
+Time elapsed: 1078.7585859298706 | Epoch: 9/30 | Batch: 2001/4292 | Batch Loss: 1.0975323915481567
+Time elapsed: 1098.9847717285156 | Epoch: 9/30 | Batch: 3001/4292 | Batch Loss: 1.098726511001587
+Time elapsed: 1120.0820572376251 | Epoch: 9/30 | Batch: 4001/4292 | Batch Loss: 1.0994089841842651
+Starting Evaluation for epoch: 9
+Time taken for train evaluation 33.37004995346069
+Time taken for validation evaluation 0.4339110851287842
+
+
+=========================
+Time elapsed: 1161.4310030937195
+Epoch: 9/30
+Epoch time: 125.23907589912415
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0987488204878295
+Validation Loss: 1.0986850313286645
+=========================
+
+
+Time elapsed: 1163.0427372455597 | Epoch: 10/30 | Batch: 1/4292 | Batch Loss: 1.0970507860183716
+Time elapsed: 1184.1530313491821 | Epoch: 10/30 | Batch: 1001/4292 | Batch Loss: 1.1002744436264038
+Time elapsed: 1205.9032917022705 | Epoch: 10/30 | Batch: 2001/4292 | Batch Loss: 1.0985746383666992
+Time elapsed: 1228.2391710281372 | Epoch: 10/30 | Batch: 3001/4292 | Batch Loss: 1.098770022392273
+Time elapsed: 1252.8387627601624 | Epoch: 10/30 | Batch: 4001/4292 | Batch Loss: 1.0990978479385376
+Starting Evaluation for epoch: 10
+Time taken for train evaluation 56.54282593727112
+Time taken for validation evaluation 1.0365979671478271
+
+
+=========================
+Time elapsed: 1319.0218648910522
+Epoch: 10/30
+Epoch time: 157.59073066711426
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0988329550593032
+Validation Loss: 1.0988838607473748
+=========================
+
+
+Time elapsed: 1323.6706943511963 | Epoch: 11/30 | Batch: 1/4292 | Batch Loss: 1.1023218631744385
+Time elapsed: 1356.0277523994446 | Epoch: 11/30 | Batch: 1001/4292 | Batch Loss: 1.0959396362304688
+Time elapsed: 1380.1730916500092 | Epoch: 11/30 | Batch: 2001/4292 | Batch Loss: 1.1005685329437256
+Time elapsed: 1406.818433523178 | Epoch: 11/30 | Batch: 3001/4292 | Batch Loss: 1.102628231048584
+Time elapsed: 1437.6336741447449 | Epoch: 11/30 | Batch: 4001/4292 | Batch Loss: 1.0984774827957153
+Starting Evaluation for epoch: 11
+Time taken for train evaluation 80.12071299552917
+Time taken for validation evaluation 1.4023737907409668
+
+
+=========================
+Time elapsed: 1530.577463388443
+Epoch: 11/30
+Epoch time: 211.55531811714172
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0986190904250872
+Validation Loss: 1.0985927359889711
+=========================
+
+
+Time elapsed: 1535.428347826004 | Epoch: 12/30 | Batch: 1/4292 | Batch Loss: 1.0986582040786743
+Time elapsed: 1589.1671545505524 | Epoch: 12/30 | Batch: 1001/4292 | Batch Loss: 1.099770188331604
+Time elapsed: 1643.2612128257751 | Epoch: 12/30 | Batch: 2001/4292 | Batch Loss: 1.100438117980957
+Time elapsed: 1669.407806634903 | Epoch: 12/30 | Batch: 3001/4292 | Batch Loss: 1.0976169109344482
+Time elapsed: 1698.4512655735016 | Epoch: 12/30 | Batch: 4001/4292 | Batch Loss: 1.0985041856765747
+Starting Evaluation for epoch: 12
+Time taken for train evaluation 60.282222509384155
+Time taken for validation evaluation 1.0988125801086426
+
+
+=========================
+Time elapsed: 1771.0084800720215
+Epoch: 12/30
+Epoch time: 240.43061661720276
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0991253664356824
+Validation Loss: 1.0994109879952818
+=========================
+
+
+Time elapsed: 1775.0173320770264 | Epoch: 13/30 | Batch: 1/4292 | Batch Loss: 1.0921318531036377
+Time elapsed: 1803.428584098816 | Epoch: 13/30 | Batch: 1001/4292 | Batch Loss: 1.0976653099060059
+Time elapsed: 1836.2713024616241 | Epoch: 13/30 | Batch: 2001/4292 | Batch Loss: 1.0987839698791504
+Time elapsed: 1858.6023857593536 | Epoch: 13/30 | Batch: 3001/4292 | Batch Loss: 1.0990593433380127
+Time elapsed: 1878.0842502117157 | Epoch: 13/30 | Batch: 4001/4292 | Batch Loss: 1.097461223602295
+Starting Evaluation for epoch: 13
+Time taken for train evaluation 33.46393847465515
+Time taken for validation evaluation 0.4118473529815674
+
+
+=========================
+Time elapsed: 1919.2446842193604
+Epoch: 13/30
+Epoch time: 148.23586010932922
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0987129020223774
+Validation Loss: 1.0986095610199795
+=========================
+
+
+Time elapsed: 1920.7248232364655 | Epoch: 14/30 | Batch: 1/4292 | Batch Loss: 1.0980010032653809
+Time elapsed: 1943.1608560085297 | Epoch: 14/30 | Batch: 1001/4292 | Batch Loss: 1.0962193012237549
+Time elapsed: 1964.896808385849 | Epoch: 14/30 | Batch: 2001/4292 | Batch Loss: 1.1008129119873047
+Time elapsed: 1987.2962155342102 | Epoch: 14/30 | Batch: 3001/4292 | Batch Loss: 1.097554087638855
+Time elapsed: 2008.7419323921204 | Epoch: 14/30 | Batch: 4001/4292 | Batch Loss: 1.0966944694519043
+Starting Evaluation for epoch: 14
+Time taken for train evaluation 33.068734645843506
+Time taken for validation evaluation 0.41492342948913574
+
+
+=========================
+Time elapsed: 2049.872368812561
+Epoch: 14/30
+Epoch time: 130.62753319740295
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0986830489516255
+Validation Loss: 1.098790629659574
+=========================
+
+
+Time elapsed: 2051.451776742935 | Epoch: 15/30 | Batch: 1/4292 | Batch Loss: 1.0970635414123535
+Time elapsed: 2073.200685739517 | Epoch: 15/30 | Batch: 1001/4292 | Batch Loss: 1.098989486694336
+Time elapsed: 2092.847355365753 | Epoch: 15/30 | Batch: 2001/4292 | Batch Loss: 1.0965418815612793
+Time elapsed: 2113.712794780731 | Epoch: 15/30 | Batch: 3001/4292 | Batch Loss: 1.0986169576644897
+Time elapsed: 2135.521417617798 | Epoch: 15/30 | Batch: 4001/4292 | Batch Loss: 1.0996205806732178
+Starting Evaluation for epoch: 15
+Time taken for train evaluation 33.5302631855011
+Time taken for validation evaluation 0.401700496673584
+
+
+=========================
+Time elapsed: 2176.755197286606
+Epoch: 15/30
+Epoch time: 126.88265323638916
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0986384233267583
+Validation Loss: 1.098679395255895
+=========================
+
+
+Time elapsed: 2177.9853951931 | Epoch: 16/30 | Batch: 1/4292 | Batch Loss: 1.0988787412643433
+Time elapsed: 2199.4601171016693 | Epoch: 16/30 | Batch: 1001/4292 | Batch Loss: 1.0984467267990112
+Time elapsed: 2220.493130683899 | Epoch: 16/30 | Batch: 2001/4292 | Batch Loss: 1.0981225967407227
+Time elapsed: 2241.532945394516 | Epoch: 16/30 | Batch: 3001/4292 | Batch Loss: 1.0962677001953125
+Time elapsed: 2261.6860480308533 | Epoch: 16/30 | Batch: 4001/4292 | Batch Loss: 1.0989309549331665
+Starting Evaluation for epoch: 16
+Time taken for train evaluation 33.11757469177246
+Time taken for validation evaluation 0.4253995418548584
+
+
+=========================
+Time elapsed: 2301.7557191848755
+Epoch: 16/30
+Epoch time: 125.00039434432983
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0986884583633412
+Validation Loss: 1.0986067254570921
+=========================
+
+
+Time elapsed: 2303.4466965198517 | Epoch: 17/30 | Batch: 1/4292 | Batch Loss: 1.099318504333496
+Time elapsed: 2323.931119441986 | Epoch: 17/30 | Batch: 1001/4292 | Batch Loss: 1.0979161262512207
+Time elapsed: 2344.8517956733704 | Epoch: 17/30 | Batch: 2001/4292 | Batch Loss: 1.1000845432281494
+Time elapsed: 2366.372275352478 | Epoch: 17/30 | Batch: 3001/4292 | Batch Loss: 1.0926482677459717
+Time elapsed: 2388.0992410182953 | Epoch: 17/30 | Batch: 4001/4292 | Batch Loss: 1.098534345626831
+Starting Evaluation for epoch: 17
+Time taken for train evaluation 33.02528381347656
+Time taken for validation evaluation 0.4119124412536621
+
+
+=========================
+Time elapsed: 2428.62783908844
+Epoch: 17/30
+Epoch time: 126.87196850776672
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.098614304615875
+Validation Loss: 1.098598028290347
+=========================
+
+
+Time elapsed: 2430.093502998352 | Epoch: 18/30 | Batch: 1/4292 | Batch Loss: 1.0985987186431885
+Time elapsed: 2451.17893409729 | Epoch: 18/30 | Batch: 1001/4292 | Batch Loss: 1.0989940166473389
+Time elapsed: 2472.853869199753 | Epoch: 18/30 | Batch: 2001/4292 | Batch Loss: 1.0982319116592407
+Time elapsed: 2494.3855838775635 | Epoch: 18/30 | Batch: 3001/4292 | Batch Loss: 1.0997921228408813
+Time elapsed: 2515.9404876232147 | Epoch: 18/30 | Batch: 4001/4292 | Batch Loss: 1.1020134687423706
+Starting Evaluation for epoch: 18
+Time taken for train evaluation 33.00297021865845
+Time taken for validation evaluation 0.4129359722137451
+
+
+=========================
+Time elapsed: 2556.429613351822
+Epoch: 18/30
+Epoch time: 127.80163240432739
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0988895351382495
+Validation Loss: 1.099093901483636
+=========================
+
+
+Time elapsed: 2557.8101301193237 | Epoch: 19/30 | Batch: 1/4292 | Batch Loss: 1.0996252298355103
+Time elapsed: 2575.931562900543 | Epoch: 19/30 | Batch: 1001/4292 | Batch Loss: 1.0984190702438354
+Time elapsed: 2594.729730606079 | Epoch: 19/30 | Batch: 2001/4292 | Batch Loss: 1.0984355211257935
+Time elapsed: 2615.9214086532593 | Epoch: 19/30 | Batch: 3001/4292 | Batch Loss: 1.1019328832626343
+Time elapsed: 2637.3617436885834 | Epoch: 19/30 | Batch: 4001/4292 | Batch Loss: 1.0982108116149902
+Starting Evaluation for epoch: 19
+Time taken for train evaluation 33.08848690986633
+Time taken for validation evaluation 0.4074394702911377
+
+
+=========================
+Time elapsed: 2678.1059398651123
+Epoch: 19/30
+Epoch time: 121.67618441581726
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0989135910712777
+Validation Loss: 1.0991500533709946
+=========================
+
+
+Time elapsed: 2679.4665112495422 | Epoch: 20/30 | Batch: 1/4292 | Batch Loss: 1.1008920669555664
+Time elapsed: 2700.344700574875 | Epoch: 20/30 | Batch: 1001/4292 | Batch Loss: 1.1000778675079346
+Time elapsed: 2720.4966521263123 | Epoch: 20/30 | Batch: 2001/4292 | Batch Loss: 1.099259376525879
+Time elapsed: 2738.990439891815 | Epoch: 20/30 | Batch: 3001/4292 | Batch Loss: 1.099003791809082
+Time elapsed: 2760.0524921417236 | Epoch: 20/30 | Batch: 4001/4292 | Batch Loss: 1.097682237625122
+Starting Evaluation for epoch: 20
+Time taken for train evaluation 33.0268177986145
+Time taken for validation evaluation 0.5961463451385498
+
+
+=========================
+Time elapsed: 2800.9148468971252
+Epoch: 20/30
+Epoch time: 122.80876851081848
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0986468276718326
+Validation Loss: 1.098555921006314
+=========================
+
+
+Time elapsed: 2802.4820001125336 | Epoch: 21/30 | Batch: 1/4292 | Batch Loss: 1.0987803936004639
+Time elapsed: 2824.116790294647 | Epoch: 21/30 | Batch: 1001/4292 | Batch Loss: 1.0986377000808716
+Time elapsed: 2846.30966091156 | Epoch: 21/30 | Batch: 2001/4292 | Batch Loss: 1.1004172563552856
+Time elapsed: 2868.936033010483 | Epoch: 21/30 | Batch: 3001/4292 | Batch Loss: 1.0981943607330322
+Time elapsed: 2889.4335837364197 | Epoch: 21/30 | Batch: 4001/4292 | Batch Loss: 1.097930908203125
+Starting Evaluation for epoch: 21
+Time taken for train evaluation 33.150617599487305
+Time taken for validation evaluation 0.41822123527526855
+
+
+=========================
+Time elapsed: 2930.221976995468
+Epoch: 21/30
+Epoch time: 129.30698251724243
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0986727573799802
+Validation Loss: 1.0985690785287672
+=========================
+
+
+Time elapsed: 2931.6481935977936 | Epoch: 22/30 | Batch: 1/4292 | Batch Loss: 1.0993729829788208
+Time elapsed: 2952.5647461414337 | Epoch: 22/30 | Batch: 1001/4292 | Batch Loss: 1.099729061126709
+Time elapsed: 2974.5906648635864 | Epoch: 22/30 | Batch: 2001/4292 | Batch Loss: 1.0981178283691406
+Time elapsed: 2996.506600856781 | Epoch: 22/30 | Batch: 3001/4292 | Batch Loss: 1.0967049598693848
+Time elapsed: 3018.490528345108 | Epoch: 22/30 | Batch: 4001/4292 | Batch Loss: 1.0986336469650269
+Starting Evaluation for epoch: 22
+Time taken for train evaluation 36.0752375125885
+Time taken for validation evaluation 0.41681694984436035
+
+
+=========================
+Time elapsed: 3062.698218345642
+Epoch: 22/30
+Epoch time: 132.47607588768005
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0990914498329445
+Validation Loss: 1.0989060873811842
+=========================
+
+
+Time elapsed: 3064.3526709079742 | Epoch: 23/30 | Batch: 1/4292 | Batch Loss: 1.1002349853515625
+Time elapsed: 3085.8913753032684 | Epoch: 23/30 | Batch: 1001/4292 | Batch Loss: 1.099503517150879
+Time elapsed: 3107.7937121391296 | Epoch: 23/30 | Batch: 2001/4292 | Batch Loss: 1.0976226329803467
+Time elapsed: 3129.2960567474365 | Epoch: 23/30 | Batch: 3001/4292 | Batch Loss: 1.0996736288070679
+Time elapsed: 3150.590676546097 | Epoch: 23/30 | Batch: 4001/4292 | Batch Loss: 1.1012146472930908
+Starting Evaluation for epoch: 23
+Time taken for train evaluation 33.9352753162384
+Time taken for validation evaluation 0.4144306182861328
+
+
+=========================
+Time elapsed: 3192.553252696991
+Epoch: 23/30
+Epoch time: 129.85481882095337
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0988836450461967
+Validation Loss: 1.0990909617064906
+=========================
+
+
+Time elapsed: 3193.91557097435 | Epoch: 24/30 | Batch: 1/4292 | Batch Loss: 1.10007643699646
+Time elapsed: 3215.327328681946 | Epoch: 24/30 | Batch: 1001/4292 | Batch Loss: 1.0999077558517456
+Time elapsed: 3237.2519726753235 | Epoch: 24/30 | Batch: 2001/4292 | Batch Loss: 1.10043203830719
+Time elapsed: 3258.724003314972 | Epoch: 24/30 | Batch: 3001/4292 | Batch Loss: 1.099886178970337
+Time elapsed: 3280.272205591202 | Epoch: 24/30 | Batch: 4001/4292 | Batch Loss: 1.098411202430725
+Starting Evaluation for epoch: 24
+Time taken for train evaluation 33.01837635040283
+Time taken for validation evaluation 0.40748047828674316
+
+
+=========================
+Time elapsed: 3321.718911886215
+Epoch: 24/30
+Epoch time: 129.16548562049866
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0990174801854928
+Validation Loss: 1.099192321312619
+=========================
+
+
+Time elapsed: 3323.281525850296 | Epoch: 25/30 | Batch: 1/4292 | Batch Loss: 1.096058964729309
+Time elapsed: 3344.559492111206 | Epoch: 25/30 | Batch: 1001/4292 | Batch Loss: 1.0997740030288696
+Time elapsed: 3365.4560372829437 | Epoch: 25/30 | Batch: 2001/4292 | Batch Loss: 1.0983572006225586
+Time elapsed: 3387.1093986034393 | Epoch: 25/30 | Batch: 3001/4292 | Batch Loss: 1.0994198322296143
+Time elapsed: 3408.1469576358795 | Epoch: 25/30 | Batch: 4001/4292 | Batch Loss: 1.0986979007720947
+Starting Evaluation for epoch: 25
+Time taken for train evaluation 36.12389779090881
+Time taken for validation evaluation 0.4605989456176758
+
+
+=========================
+Time elapsed: 3452.0284638404846
+Epoch: 25/30
+Epoch time: 130.30940079689026
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.0986350532265647
+Validation Loss: 1.0986019302204213
+=========================
+
+
+Time elapsed: 3453.8567464351654 | Epoch: 26/30 | Batch: 1/4292 | Batch Loss: 1.0974355936050415
+Time elapsed: 3475.5038661956787 | Epoch: 26/30 | Batch: 1001/4292 | Batch Loss: 1.0997509956359863
+Time elapsed: 3498.044511795044 | Epoch: 26/30 | Batch: 2001/4292 | Batch Loss: 1.100030541419983
+Time elapsed: 3519.8239154815674 | Epoch: 26/30 | Batch: 3001/4292 | Batch Loss: 1.1000688076019287
+Time elapsed: 3542.036832332611 | Epoch: 26/30 | Batch: 4001/4292 | Batch Loss: 1.101898193359375
+Starting Evaluation for epoch: 26
+Time taken for train evaluation 33.51572370529175
+Time taken for validation evaluation 0.41110825538635254
+
+
+=========================
+Time elapsed: 3583.1535415649414
+Epoch: 26/30
+Epoch time: 131.12467193603516
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0988197391790877
+Validation Loss: 1.0986326183155528
+=========================
+
+
+Time elapsed: 3584.96572804451 | Epoch: 27/30 | Batch: 1/4292 | Batch Loss: 1.092940330505371
+Time elapsed: 3606.9255709648132 | Epoch: 27/30 | Batch: 1001/4292 | Batch Loss: 1.1003834009170532
+Time elapsed: 3628.892900943756 | Epoch: 27/30 | Batch: 2001/4292 | Batch Loss: 1.1004914045333862
+Time elapsed: 3650.426719903946 | Epoch: 27/30 | Batch: 3001/4292 | Batch Loss: 1.099835753440857
+Time elapsed: 3671.7188818454742 | Epoch: 27/30 | Batch: 4001/4292 | Batch Loss: 1.099968671798706
+Starting Evaluation for epoch: 27
+Time taken for train evaluation 33.100231647491455
+Time taken for validation evaluation 0.4065988063812256
+
+
+=========================
+Time elapsed: 3712.349748849869
+Epoch: 27/30
+Epoch time: 129.19602632522583
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0986192420176788
+Validation Loss: 1.0986380890553813
+=========================
+
+
+Time elapsed: 3714.1728620529175 | Epoch: 28/30 | Batch: 1/4292 | Batch Loss: 1.0988861322402954
+Time elapsed: 3735.0695490837097 | Epoch: 28/30 | Batch: 1001/4292 | Batch Loss: 1.0984623432159424
+Time elapsed: 3754.234210252762 | Epoch: 28/30 | Batch: 2001/4292 | Batch Loss: 1.0991103649139404
+Time elapsed: 3775.698490858078 | Epoch: 28/30 | Batch: 3001/4292 | Batch Loss: 1.1005463600158691
+Time elapsed: 3796.8906931877136 | Epoch: 28/30 | Batch: 4001/4292 | Batch Loss: 1.0971431732177734
+Starting Evaluation for epoch: 28
+Time taken for train evaluation 33.19093585014343
+Time taken for validation evaluation 0.39070916175842285
+
+
+=========================
+Time elapsed: 3837.9508900642395
+Epoch: 28/30
+Epoch time: 125.60097146034241
+Train Acc: 0.3334510445658367
+Validation Acc: 0.3330623856939646
+Train Loss: 1.098772395541754
+Validation Loss: 1.0986558823923687
+=========================
+
+
+Time elapsed: 3839.279277563095 | Epoch: 29/30 | Batch: 1/4292 | Batch Loss: 1.0983527898788452
+Time elapsed: 3859.127716064453 | Epoch: 29/30 | Batch: 1001/4292 | Batch Loss: 1.0975192785263062
+Time elapsed: 3880.766950368881 | Epoch: 29/30 | Batch: 2001/4292 | Batch Loss: 1.0989238023757935
+Time elapsed: 3902.400658607483 | Epoch: 29/30 | Batch: 3001/4292 | Batch Loss: 1.099876880645752
+Time elapsed: 3923.573080062866 | Epoch: 29/30 | Batch: 4001/4292 | Batch Loss: 1.0986734628677368
+Starting Evaluation for epoch: 29
+Time taken for train evaluation 34.47147536277771
+Time taken for validation evaluation 0.40891242027282715
+
+
+=========================
+Time elapsed: 3965.6317324638367
+Epoch: 29/30
+Epoch time: 127.68069243431091
+Train Acc: 0.33386788795104183
+Validation Acc: 0.3382442592968909
+Train Loss: 1.0989517636220902
+Validation Loss: 1.0986696062861263
+=========================
+
+
+Time elapsed: 3967.6874520778656 | Epoch: 30/30 | Batch: 1/4292 | Batch Loss: 1.098484754562378
+Time elapsed: 3989.6955959796906 | Epoch: 30/30 | Batch: 1001/4292 | Batch Loss: 1.0986922979354858
+Time elapsed: 4010.8946323394775 | Epoch: 30/30 | Batch: 2001/4292 | Batch Loss: 1.0977915525436401
+Time elapsed: 4031.995935678482 | Epoch: 30/30 | Batch: 3001/4292 | Batch Loss: 1.0988354682922363
+Time elapsed: 4051.003939151764 | Epoch: 30/30 | Batch: 4001/4292 | Batch Loss: 1.098996877670288
+Starting Evaluation for epoch: 30
+Time taken for train evaluation 59.647883892059326
+Time taken for validation evaluation 0.6470587253570557
+
+
+=========================
+Time elapsed: 4120.427645206451
+Epoch: 30/30
+Epoch time: 154.79575157165527
+Train Acc: 0.3326810674831215
+Validation Acc: 0.3286933550091445
+Train Loss: 1.0987596486437343
+Validation Loss: 1.0988698698742267
+=========================
+
+
+Starting Loss: 1.0993123846846782 1.0993178165000135
+Ending Loss: 1.0987596486437343 1.0988698698742267
+Starting Accuracy: 0.3334510445658367 0.3330623856939646
+Ending Accuracy: 0.3326810674831215 0.3286933550091445
+Time taken: 4121.201225757599
+
+
+
+Done
