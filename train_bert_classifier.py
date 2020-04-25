@@ -11,6 +11,9 @@ from transformers import BertForSequenceClassification, AdamW, BertConfig
 from transformers import get_linear_schedule_with_warmup
 import numpy as np
 import datetime
+import utils
+from sklearn.metrics import accuracy_score, confusion_matrix
+import os
 
 
 def format_time(elapsed):
@@ -66,6 +69,27 @@ def get_attention_masks(X):
 
     return attention_masks
 
+
+def evaluate(model, data):
+    all_y_truth = []
+    all_y_pred = []
+    loss_meter = utils.AverageMeter("loss")
+    for batch in data:
+        batch = tuple(t.to(device) for t in batch)
+        b_input_ids, b_input_mask, b_token_type_ids, b_labels = batch
+
+        loss, logits = model(b_input_ids,
+                             token_type_ids=b_token_type_ids,
+                             attention_mask=b_input_mask,
+                             labels=b_labels)
+        _, pred_classes = torch.max(logits, 1)
+        all_y_pred.extend(pred_classes.tolist())
+        all_y_truth.extend(b_labels.tolist())
+        loss_meter.update(loss, b_labels.shape[0])
+    acc = accuracy_score(all_y_truth, all_y_pred)
+    return acc, loss_meter.avg, all_y_pred, all_y_truth
+
+
 ###########
 # Configs #
 ###########
@@ -75,13 +99,14 @@ GPU = 0
 MAX_LEN = 128
 BATCH_SIZE = 32
 EPOCHS = 10
+MODEL_NAME = "bert-base-uncased"
 CLASSES = {"entailment": 0, "contradiction": 1, "neutral": 2}
 
 
 torch.cuda.set_device(GPU)
 device = torch.device('cuda:'+str(GPU))
 tokenizer = BertTokenizer.from_pretrained(
-    'bert-base-uncased', do_lower_case=True)
+    MODEL_NAME, do_lower_case=True)
 
 
 # temp = utils.get_train_valid_test_data("glove.6B.100d", 128, device)
@@ -155,7 +180,7 @@ validation_dataloader = DataLoader(
 #######################
 
 model = BertForSequenceClassification.from_pretrained(
-    "bert-base-uncased",
+    MODEL_NAME,
     num_labels=3,
     output_attentions=False,
     output_hidden_states=False
@@ -177,16 +202,17 @@ scheduler = get_linear_schedule_with_warmup(optimizer,
 # Training #
 ############
 
+train_losses = []
+validation_losses = []
+train_accuracies = []
+validation_accuracies = []
+epoch_ticks = []
 
-loss_values = []
+start_time = time.time()
 
 for epoch_i in range(0, EPOCHS):
 
-    # ========================================
-    #               Training
-    # ========================================
-
-    # Perform one full pass over the training set.
+    epoch_st = time.time()
 
     print("")
     print('======== Epoch {:} / {:} ========'.format(epoch_i + 1, EPOCHS))
@@ -203,8 +229,7 @@ for epoch_i in range(0, EPOCHS):
     # For each batch of training data...
     for step, batch in enumerate(train_dataloader):
 
-        # Progress update every 40 batches.
-        if step % 40 == 0 and not step == 0:
+        if step % 2000 == 0 and not step == 0:
             # Calculate elapsed time in minutes.
             elapsed = format_time(time.time() - t0)
 
@@ -239,12 +264,9 @@ for epoch_i in range(0, EPOCHS):
     # Calculate the average loss over the training data.
     avg_train_loss = total_loss / len(train_dataloader)
 
-    # Store the loss value for plotting the learning curve.
-    loss_values.append(avg_train_loss)
-
     print("")
     print("  Average training loss: {0:.2f}".format(avg_train_loss))
-    print("  Training epcoh took: {:}".format(format_time(time.time() - t0)))
+    print("  Training epoch took: {:}".format(format_time(time.time() - t0)))
 
     # ========================================
     #               Validation
@@ -259,68 +281,98 @@ for epoch_i in range(0, EPOCHS):
 
     model.eval()
 
-    # Tracking variables
-    eval_loss, eval_accuracy = 0, 0
-    nb_eval_steps, nb_eval_examples = 0, 0
+    with torch.no_grad():
+        print("Starting Evaluation for epoch:", epoch_i+1)
+        st = time.time()
+        # Train data set evaluation
+        train_acc, train_loss, train_y_pred, train_y_truth = evaluate(
+            model, train_data)
+        train_accuracies.append(train_acc)
+        train_losses.append(train_loss)
+        et = time.time()
+        print("Time taken for train evaluation", et - st)
 
-    # Evaluate data for one epoch
-    for batch in validation_dataloader:
+        # Validation data set evaluation
+        st = time.time()
+        validation_acc, validation_loss, validate_y_pred, validate_y_truth = evaluate(
+            model, validation_data)
+        validation_accuracies.append(validation_acc)
+        validation_losses.append(validation_loss)
+        et = time.time()
+        print("Time taken for validation evaluation", et - st)
 
-        # Add batch to GPU
-        batch = tuple(t.to(device) for t in batch)
+        # Writing Confusion matrices
+        utils.plot_confusion_matrices(
+            MODEL_NAME, str(epoch_i+1), train_y_truth, train_y_pred, validate_y_truth, validate_y_pred)
 
-        # Unpack the inputs from our dataloader
-        b_input_ids, b_input_mask, b_token_type_ids, b_labels = batch
+        epoch_ticks.append(epoch_i+1)
 
-        with torch.no_grad():
+    # Printing Epoch Metrics
+    print("\n\n"+"="*25)
+    print("Time elapsed:", time.time() - start_time)
+    print("Epoch:", str(epoch_i + 1) + "/" + str(EPOCHS))
+    print("Epoch time:", time.time() - epoch_st)
+    print("Train Acc:", train_acc)
+    print("Validation Acc:", validation_acc)
+    print("Train Loss:", train_loss)
+    print("Validation Loss:", validation_loss)
+    print("="*25 + "\n\n")
 
-            outputs = model(b_input_ids,
-                            token_type_ids=b_token_type_ids,
-                            attention_mask=b_input_mask)
-
-        # Get the "logits" output by the model. The "logits" are the output
-        # values prior to applying an activation function like the softmax.
-        logits = outputs[0]
-
-        # Move logits and labels to CPU
-        logits = logits.detach().cpu().numpy()
-        label_ids = b_labels.to('cpu').numpy()
-
-        # Calculate the accuracy for this batch of test sentences.
-        tmp_eval_accuracy = flat_accuracy(logits, label_ids)
-
-        # Accumulate the total accuracy.
-        eval_accuracy += tmp_eval_accuracy
-
-        # Track the number of batches
-        nb_eval_steps += 1
-
-    # Report the final accuracy for this validation run.
-    print("  Accuracy: {0:.2f}".format(eval_accuracy/nb_eval_steps))
     print("  Validation took: {:}".format(format_time(time.time() - t0)))
 
 print("")
 print("Training complete!")
 
+####################
+# Saving the model #
+####################
 
-############
-# Plotting #
-############
+model_dir = "models/" + MODEL_NAME
+if not os.path.exists(model_dir):
+    os.mkdir(model_dir)
+
+print("Saving model to", model_dir)
+model.save_pretrained(model_dir)
+tokenizer.save_pretrained(model_dir)
+
+###############################
+# Plotting the Metrics Graphs #
+###############################
 
 
-# Use plot styling from seaborn.
-sns.set(style='darkgrid')
+def plot_metrics():
+    plot_folder = "plots/" + MODEL_NAME + "/"
+    if not os.path.exists(plot_folder):
+        os.makedirs(plot_folder)
 
-# Increase the plot size and font size.
-sns.set(font_scale=1.5)
-plt.rcParams["figure.figsize"] = (12, 6)
+    # Losses
+    plt.plot(epoch_ticks, train_losses, label="training loss")
+    plt.plot(epoch_ticks, validation_losses, label="validation loss")
+    plt.legend(loc='best')
+    plt.title("Losses")
+    plt.savefig(plot_folder + 'Losses.png')
+    plt.clf()
 
-# Plot the learning curve.
-plt.plot(loss_values, 'b-o')
+    # Accuracies
+    plt.plot(epoch_ticks, train_accuracies, label="training accuracies")
+    plt.plot(epoch_ticks, validation_accuracies, label="validation accuracies")
+    plt.legend(loc='best')
+    plt.title("Accuracies")
+    plt.savefig(plot_folder + 'Accuracies.png')
+    plt.clf()
 
-# Label the plot.
-plt.title("Training loss")
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
 
-plt.savefig("bert.png")
+plot_metrics()
+
+print("Done")
+
+
+# Loading the model
+"""
+# Load a trained model and vocabulary that you have fine-tuned
+model = model_class.from_pretrained(output_dir)
+tokenizer = tokenizer_class.from_pretrained(output_dir)
+
+# Copy the model to the GPU.
+model.to(device)
+"""
