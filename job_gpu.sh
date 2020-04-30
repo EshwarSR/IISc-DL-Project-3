@@ -3,7 +3,7 @@
 #SBATCH --ntasks=8 # Run on a eight CPU
 
 #SBATCH --output=logs/batch_bert_exp1_%j.out # Standard output and error log
-#SBATCH --partition=cl1_all_4G
+#SBATCH --partition=cl1_48h-1G
 
 # source /home/eshwarsr/IISc-DL-Project-3/virtual_env/bin/activate
 

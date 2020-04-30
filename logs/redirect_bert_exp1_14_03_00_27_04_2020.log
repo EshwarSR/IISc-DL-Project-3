@@ -1,0 +1,303 @@
+2020-04-27 14:03:29.030789: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-27 14:03:29.031083: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-27 14:03:29.031121: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Using TensorFlow backend.
+Downloading:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading:   0%|          | 1.02k/232k [00:00<00:50, 4.53kB/s]Downloading:  15%|█▌        | 34.8k/232k [00:00<00:30, 6.38kB/s]Downloading:  17%|█▋        | 39.9k/232k [00:00<00:23, 8.24kB/s]Downloading:  83%|████████▎ | 191k/232k [00:00<00:03, 11.7kB/s] Downloading: 100%|██████████| 232k/232k [00:00<00:00, 252kB/s] 
+Time for loading and tokenizing data: 217.3656439781189
+Lengths: 125 113
+[101, 1037, 2711, 2006, 1037, 3586, 14523, 2058, 1037, 3714, 2091, 13297, 1012, 102, 1037, 2711, 2003, 2731, 2010, 3586, 2005, 1037, 2971, 1012, 102]
+
+Padding/truncating all sentences to length 128
+Time for pre processing: 38.027732849121094
+[  101  1037  2711  2006  1037  3586 14523  2058  1037  3714  2091 13297
+  1012   102  1037  2711  2003  2731  2010  3586  2005  1037  2971  1012
+   102     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Downloading:   0%|          | 0.00/433 [00:00<?, ?B/s]Downloading: 100%|██████████| 433/433 [00:00<00:00, 213kB/s]
+Downloading:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading:   0%|          | 1.02k/440M [00:00<26:42:16, 4.58kB/s]Downloading:   0%|          | 34.8k/440M [00:00<18:56:12, 6.46kB/s]Downloading:   0%|          | 87.0k/440M [00:00<13:24:43, 9.12kB/s]Downloading:   0%|          | 191k/440M [00:00<9:27:54, 12.9kB/s]  Downloading:   0%|          | 400k/440M [00:01<6:39:42, 18.3kB/s]Downloading:   0%|          | 801k/440M [00:01<4:40:46, 26.1kB/s]Downloading:   0%|          | 1.64M/440M [00:01<3:16:45, 37.2kB/s]Downloading:   1%|          | 3.20M/440M [00:01<2:17:33, 53.0kB/s]Downloading:   1%|          | 4.78M/440M [00:02<1:36:15, 75.4kB/s]Downloading:   1%|▏         | 6.35M/440M [00:02<1:07:26, 107kB/s] Downloading:   2%|▏         | 7.92M/440M [00:02<47:20, 152kB/s]  Downloading:   2%|▏         | 9.48M/440M [00:02<33:20, 215kB/s]Downloading:   3%|▎         | 11.1M/440M [00:02<23:33, 304kB/s]Downloading:   3%|▎         | 12.6M/440M [00:03<16:44, 426kB/s]Downloading:   3%|▎         | 14.2M/440M [00:03<11:58, 593kB/s]Downloading:   4%|▎         | 15.8M/440M [00:03<08:39, 818kB/s]Downloading:   4%|▍         | 17.3M/440M [00:03<06:20, 1.11MB/s]Downloading:   4%|▍         | 18.9M/440M [00:04<04:43, 1.49MB/s]Downloading:   5%|▍         | 20.5M/440M [00:04<03:35, 1.95MB/s]Downloading:   5%|▌         | 22.0M/440M [00:04<02:48, 2.49MB/s]Downloading:   5%|▌         | 23.6M/440M [00:04<02:15, 3.08MB/s]Downloading:   6%|▌         | 25.2M/440M [00:04<01:52, 3.70MB/s]Downloading:   6%|▌         | 26.7M/440M [00:05<01:35, 4.31MB/s]Downloading:   6%|▋         | 28.3M/440M [00:05<01:24, 4.87MB/s]Downloading:   7%|▋         | 29.9M/440M [00:05<01:16, 5.36MB/s]Downloading:   7%|▋         | 31.5M/440M [00:05<01:11, 5.76MB/s]Downloading:   8%|▊         | 33.0M/440M [00:06<01:07, 6.08MB/s]Downloading:   8%|▊         | 34.6M/440M [00:06<01:04, 6.33MB/s]Downloading:   8%|▊         | 36.2M/440M [00:06<01:01, 6.52MB/s]Downloading:   9%|▊         | 37.7M/440M [00:06<01:00, 6.65MB/s]Downloading:   9%|▉         | 39.3M/440M [00:06<00:59, 6.75MB/s]Downloading:   9%|▉         | 40.9M/440M [00:07<00:58, 6.81MB/s]Downloading:  10%|▉         | 42.5M/440M [00:07<00:57, 6.86MB/s]Downloading:  10%|▉         | 44.0M/440M [00:07<00:57, 6.90MB/s]Downloading:  10%|█         | 45.6M/440M [00:07<00:56, 6.93MB/s]Downloading:  11%|█         | 47.2M/440M [00:08<00:56, 6.95MB/s]Downloading:  11%|█         | 48.7M/440M [00:08<00:56, 6.97MB/s]Downloading:  11%|█▏        | 50.3M/440M [00:08<00:56, 6.96MB/s]Downloading:  12%|█▏        | 51.9M/440M [00:08<00:55, 6.97MB/s]Downloading:  12%|█▏        | 53.5M/440M [00:08<00:55, 6.98MB/s]Downloading:  12%|█▏        | 55.0M/440M [00:09<00:55, 6.98MB/s]Downloading:  13%|█▎        | 56.6M/440M [00:09<00:54, 6.99MB/s]Downloading:  13%|█▎        | 58.2M/440M [00:09<00:54, 6.98MB/s]Downloading:  14%|█▎        | 59.7M/440M [00:09<00:54, 6.99MB/s]Downloading:  14%|█▍        | 61.3M/440M [00:10<00:54, 6.98MB/s]Downloading:  14%|█▍        | 62.9M/440M [00:10<00:54, 6.98MB/s]Downloading:  15%|█▍        | 64.4M/440M [00:10<00:53, 7.00MB/s]Downloading:  15%|█▍        | 66.0M/440M [00:10<00:53, 6.99MB/s]Downloading:  15%|█▌        | 67.6M/440M [00:11<00:53, 6.99MB/s]Downloading:  16%|█▌        | 69.1M/440M [00:11<00:53, 6.98MB/s]Downloading:  16%|█▌        | 70.7M/440M [00:11<00:52, 6.99MB/s]Downloading:  16%|█▋        | 72.3M/440M [00:11<00:52, 7.00MB/s]Downloading:  17%|█▋        | 73.9M/440M [00:11<00:52, 6.99MB/s]Downloading:  17%|█▋        | 75.4M/440M [00:12<00:52, 6.99MB/s]Downloading:  17%|█▋        | 77.0M/440M [00:12<00:52, 6.98MB/s]Downloading:  18%|█▊        | 78.6M/440M [00:12<00:51, 6.99MB/s]Downloading:  18%|█▊        | 80.1M/440M [00:12<00:51, 6.98MB/s]Downloading:  19%|█▊        | 81.7M/440M [00:13<00:51, 7.01MB/s]Downloading:  19%|█▉        | 83.3M/440M [00:13<00:51, 6.99MB/s]Downloading:  19%|█▉        | 84.8M/440M [00:13<00:50, 6.98MB/s]Downloading:  20%|█▉        | 86.4M/440M [00:13<00:50, 6.97MB/s]Downloading:  20%|█▉        | 88.0M/440M [00:13<00:50, 6.97MB/s]Downloading:  20%|██        | 89.6M/440M [00:14<00:50, 6.98MB/s]Downloading:  21%|██        | 91.1M/440M [00:14<00:49, 7.03MB/s]Downloading:  21%|██        | 92.7M/440M [00:14<00:49, 6.99MB/s]Downloading:  21%|██▏       | 94.3M/440M [00:14<00:49, 6.98MB/s]Downloading:  22%|██▏       | 95.8M/440M [00:15<00:49, 6.99MB/s]Downloading:  22%|██▏       | 97.4M/440M [00:15<00:49, 6.97MB/s]Downloading:  22%|██▏       | 99.0M/440M [00:15<00:48, 6.98MB/s]Downloading:  23%|██▎       | 101M/440M [00:15<00:48, 7.03MB/s] Downloading:  23%|██▎       | 102M/440M [00:15<00:48, 6.99MB/s]Downloading:  24%|██▎       | 104M/440M [00:16<00:48, 6.97MB/s]Downloading:  24%|██▍       | 105M/440M [00:16<00:48, 6.94MB/s]Downloading:  24%|██▍       | 107M/440M [00:16<00:47, 6.96MB/s]Downloading:  25%|██▍       | 108M/440M [00:16<00:47, 6.97MB/s]Downloading:  25%|██▍       | 110M/440M [00:17<00:47, 6.98MB/s]Downloading:  25%|██▌       | 112M/440M [00:17<00:47, 6.98MB/s]Downloading:  26%|██▌       | 113M/440M [00:17<00:46, 6.99MB/s]Downloading:  26%|██▌       | 115M/440M [00:17<00:46, 6.98MB/s]Downloading:  26%|██▋       | 116M/440M [00:17<00:46, 6.98MB/s]Downloading:  27%|██▋       | 118M/440M [00:18<00:45, 7.03MB/s]Downloading:  27%|██▋       | 119M/440M [00:18<00:46, 6.98MB/s]Downloading:  27%|██▋       | 121M/440M [00:18<00:45, 6.98MB/s]Downloading:  28%|██▊       | 123M/440M [00:18<00:45, 6.98MB/s]Downloading:  28%|██▊       | 124M/440M [00:19<00:45, 6.96MB/s]Downloading:  29%|██▊       | 126M/440M [00:19<00:45, 6.95MB/s]Downloading:  29%|██▉       | 127M/440M [00:19<00:44, 7.03MB/s]Downloading:  29%|██▉       | 129M/440M [00:19<00:44, 6.98MB/s]Downloading:  30%|██▉       | 130M/440M [00:19<00:44, 6.99MB/s]Downloading:  30%|██▉       | 132M/440M [00:20<00:44, 6.99MB/s]Downloading:  30%|███       | 134M/440M [00:20<00:43, 6.98MB/s]Downloading:  31%|███       | 135M/440M [00:20<00:43, 6.96MB/s]Downloading:  31%|███       | 137M/440M [00:20<00:43, 7.03MB/s]Downloading:  31%|███▏      | 138M/440M [00:21<00:43, 6.99MB/s]Downloading:  32%|███▏      | 140M/440M [00:21<00:43, 6.99MB/s]Downloading:  32%|███▏      | 141M/440M [00:21<00:42, 6.98MB/s]Downloading:  32%|███▏      | 143M/440M [00:21<00:42, 6.96MB/s]Downloading:  33%|███▎      | 145M/440M [00:22<00:42, 6.94MB/s]Downloading:  33%|███▎      | 146M/440M [00:22<00:41, 7.05MB/s]Downloading:  34%|███▎      | 148M/440M [00:22<00:41, 7.00MB/s]Downloading:  34%|███▍      | 149M/440M [00:22<00:41, 7.00MB/s]Downloading:  34%|███▍      | 151M/440M [00:22<00:41, 6.95MB/s]Downloading:  35%|███▍      | 152M/440M [00:23<00:41, 6.97MB/s]Downloading:  35%|███▍      | 154M/440M [00:23<00:41, 6.96MB/s]Downloading:  35%|███▌      | 155M/440M [00:23<00:40, 7.06MB/s]Downloading:  36%|███▌      | 157M/440M [00:23<00:40, 6.98MB/s]Downloading:  36%|███▌      | 159M/440M [00:24<00:40, 6.98MB/s]Downloading:  36%|███▋      | 160M/440M [00:24<00:40, 6.95MB/s]Downloading:  37%|███▋      | 162M/440M [00:24<00:40, 6.96MB/s]Downloading:  37%|███▋      | 163M/440M [00:24<00:39, 7.07MB/s]Downloading:  37%|███▋      | 165M/440M [00:24<00:39, 6.98MB/s]Downloading:  38%|███▊      | 166M/440M [00:25<00:39, 6.95MB/s]Downloading:  38%|███▊      | 168M/440M [00:25<00:39, 6.96MB/s]Downloading:  39%|███▊      | 170M/440M [00:25<00:38, 6.97MB/s]Downloading:  39%|███▉      | 171M/440M [00:25<00:38, 6.98MB/s]Downloading:  39%|███▉      | 173M/440M [00:26<00:37, 7.08MB/s]Downloading:  40%|███▉      | 174M/440M [00:26<00:38, 6.99MB/s]Downloading:  40%|███▉      | 176M/440M [00:26<00:38, 6.95MB/s]Downloading:  40%|████      | 177M/440M [00:26<00:37, 6.96MB/s]Downloading:  41%|████      | 179M/440M [00:26<00:37, 6.98MB/s]Downloading:  41%|████      | 181M/440M [00:27<00:37, 6.98MB/s]Downloading:  41%|████▏     | 182M/440M [00:27<00:36, 7.08MB/s]Downloading:  42%|████▏     | 184M/440M [00:27<00:36, 7.00MB/s]Downloading:  42%|████▏     | 185M/440M [00:27<00:36, 6.96MB/s]Downloading:  42%|████▏     | 187M/440M [00:28<00:36, 6.97MB/s]Downloading:  43%|████▎     | 188M/440M [00:28<00:36, 6.95MB/s]Downloading:  43%|████▎     | 190M/440M [00:28<00:35, 6.96MB/s]Downloading:  43%|████▎     | 192M/440M [00:28<00:35, 7.10MB/s]Downloading:  44%|████▍     | 193M/440M [00:28<00:35, 7.01MB/s]Downloading:  44%|████▍     | 195M/440M [00:29<00:35, 6.96MB/s]Downloading:  45%|████▍     | 196M/440M [00:29<00:35, 6.97MB/s]Downloading:  45%|████▍     | 198M/440M [00:29<00:34, 6.95MB/s]Downloading:  45%|████▌     | 199M/440M [00:29<00:34, 6.95MB/s]Downloading:  46%|████▌     | 201M/440M [00:30<00:33, 7.10MB/s]Downloading:  46%|████▌     | 203M/440M [00:30<00:34, 6.97MB/s]Downloading:  46%|████▋     | 204M/440M [00:30<00:33, 6.96MB/s]Downloading:  47%|████▋     | 206M/440M [00:30<00:33, 6.96MB/s]Downloading:  47%|████▋     | 207M/440M [00:31<00:33, 6.96MB/s]Downloading:  47%|████▋     | 209M/440M [00:31<00:33, 6.97MB/s]Downloading:  48%|████▊     | 210M/440M [00:31<00:32, 7.01MB/s]Downloading:  48%|████▊     | 212M/440M [00:31<00:32, 6.98MB/s]Downloading:  48%|████▊     | 214M/440M [00:31<00:32, 6.98MB/s]Downloading:  49%|████▉     | 215M/440M [00:32<00:32, 6.98MB/s]Downloading:  49%|████▉     | 217M/440M [00:32<00:32, 6.98MB/s]Downloading:  50%|████▉     | 218M/440M [00:32<00:31, 7.12MB/s]Downloading:  50%|████▉     | 220M/440M [00:32<00:31, 6.98MB/s]Downloading:  50%|█████     | 221M/440M [00:33<00:31, 6.96MB/s]Downloading:  51%|█████     | 223M/440M [00:33<00:31, 6.97MB/s]Downloading:  51%|█████     | 225M/440M [00:33<00:30, 6.97MB/s]Downloading:  51%|█████▏    | 226M/440M [00:33<00:30, 6.95MB/s]Downloading:  52%|█████▏    | 228M/440M [00:33<00:29, 7.12MB/s]Downloading:  52%|█████▏    | 229M/440M [00:34<00:30, 6.98MB/s]Downloading:  52%|█████▏    | 231M/440M [00:34<00:30, 6.97MB/s]Downloading:  53%|█████▎    | 232M/440M [00:34<00:29, 6.97MB/s]Downloading:  53%|█████▎    | 234M/440M [00:34<00:29, 6.97MB/s]Downloading:  53%|█████▎    | 236M/440M [00:35<00:29, 6.95MB/s]Downloading:  54%|█████▍    | 237M/440M [00:35<00:28, 7.12MB/s]Downloading:  54%|█████▍    | 239M/440M [00:35<00:28, 6.99MB/s]Downloading:  55%|█████▍    | 240M/440M [00:35<00:28, 6.97MB/s]Downloading:  55%|█████▍    | 242M/440M [00:35<00:28, 6.98MB/s]Downloading:  55%|█████▌    | 243M/440M [00:36<00:28, 6.97MB/s]Downloading:  56%|█████▌    | 245M/440M [00:36<00:28, 6.95MB/s]Downloading:  56%|█████▌    | 247M/440M [00:36<00:27, 7.11MB/s]Downloading:  56%|█████▋    | 248M/440M [00:36<00:27, 6.99MB/s]Downloading:  57%|█████▋    | 250M/440M [00:37<00:27, 6.95MB/s]Downloading:  57%|█████▋    | 251M/440M [00:37<00:27, 6.97MB/s]Downloading:  57%|█████▋    | 253M/440M [00:37<00:27, 6.94MB/s]Downloading:  58%|█████▊    | 254M/440M [00:37<00:26, 6.94MB/s]Downloading:  58%|█████▊    | 256M/440M [00:37<00:25, 7.13MB/s]Downloading:  58%|█████▊    | 258M/440M [00:38<00:26, 6.96MB/s]Downloading:  59%|█████▉    | 259M/440M [00:38<00:26, 6.97MB/s]Downloading:  59%|█████▉    | 261M/440M [00:38<00:25, 6.97MB/s]Downloading:  60%|█████▉    | 262M/440M [00:38<00:25, 6.96MB/s]Downloading:  60%|█████▉    | 264M/440M [00:39<00:24, 7.12MB/s]Downloading:  60%|██████    | 265M/440M [00:39<00:25, 6.99MB/s]Downloading:  61%|██████    | 267M/440M [00:39<00:24, 6.96MB/s]Downloading:  61%|██████    | 269M/440M [00:39<00:24, 6.92MB/s]Downloading:  61%|██████▏   | 270M/440M [00:39<00:24, 6.94MB/s]Downloading:  62%|██████▏   | 272M/440M [00:40<00:24, 6.96MB/s]Downloading:  62%|██████▏   | 273M/440M [00:40<00:23, 7.15MB/s]Downloading:  62%|██████▏   | 275M/440M [00:40<00:23, 6.91MB/s]Downloading:  63%|██████▎   | 276M/440M [00:40<00:23, 6.94MB/s]Downloading:  63%|██████▎   | 278M/440M [00:41<00:23, 6.96MB/s]Downloading:  63%|██████▎   | 280M/440M [00:41<00:23, 6.96MB/s]Downloading:  64%|██████▍   | 281M/440M [00:41<00:22, 6.98MB/s]Downloading:  64%|██████▍   | 283M/440M [00:41<00:22, 7.17MB/s]Downloading:  65%|██████▍   | 284M/440M [00:42<00:22, 6.92MB/s]Downloading:  65%|██████▍   | 286M/440M [00:42<00:22, 6.94MB/s]Downloading:  65%|██████▌   | 287M/440M [00:42<00:22, 6.95MB/s]Downloading:  66%|██████▌   | 289M/440M [00:42<00:21, 6.96MB/s]Downloading:  66%|██████▌   | 291M/440M [00:42<00:21, 6.98MB/s]Downloading:  66%|██████▋   | 292M/440M [00:43<00:20, 7.16MB/s]Downloading:  67%|██████▋   | 294M/440M [00:43<00:21, 6.93MB/s]Downloading:  67%|██████▋   | 295M/440M [00:43<00:20, 6.93MB/s]Downloading:  67%|██████▋   | 297M/440M [00:43<00:20, 6.95MB/s]Downloading:  68%|██████▊   | 298M/440M [00:44<00:20, 6.96MB/s]Downloading:  68%|██████▊   | 300M/440M [00:44<00:20, 6.97MB/s]Downloading:  68%|██████▊   | 302M/440M [00:44<00:19, 7.18MB/s]Downloading:  69%|██████▉   | 303M/440M [00:44<00:16, 8.45MB/s]Downloading:  69%|██████▉   | 304M/440M [00:44<00:20, 6.82MB/s]Downloading:  69%|██████▉   | 305M/440M [00:44<00:22, 5.93MB/s]Downloading:  70%|██████▉   | 306M/440M [00:45<00:21, 6.21MB/s]Downloading:  70%|██████▉   | 308M/440M [00:45<00:20, 6.42MB/s]Downloading:  70%|███████   | 309M/440M [00:45<00:19, 6.76MB/s]Downloading:  71%|███████   | 311M/440M [00:45<00:16, 8.02MB/s]Downloading:  71%|███████   | 312M/440M [00:45<00:19, 6.57MB/s]Downloading:  71%|███████   | 313M/440M [00:46<00:21, 5.87MB/s]Downloading:  71%|███████▏  | 314M/440M [00:46<00:20, 6.17MB/s]Downloading:  72%|███████▏  | 316M/440M [00:46<00:19, 6.40MB/s]Downloading:  72%|███████▏  | 317M/440M [00:46<00:18, 6.55MB/s]Downloading:  72%|███████▏  | 319M/440M [00:46<00:17, 6.88MB/s]Downloading:  73%|███████▎  | 320M/440M [00:47<00:14, 8.15MB/s]Downloading:  73%|███████▎  | 321M/440M [00:47<00:18, 6.61MB/s]Downloading:  73%|███████▎  | 322M/440M [00:47<00:20, 5.87MB/s]Downloading:  73%|███████▎  | 323M/440M [00:47<00:18, 6.16MB/s]Downloading:  74%|███████▍  | 325M/440M [00:47<00:18, 6.39MB/s]Downloading:  74%|███████▍  | 327M/440M [00:48<00:17, 6.56MB/s]Downloading:  75%|███████▍  | 328M/440M [00:48<00:16, 6.81MB/s]Downloading:  75%|███████▍  | 330M/440M [00:48<00:16, 6.75MB/s]Downloading:  75%|███████▌  | 331M/440M [00:48<00:16, 6.80MB/s]Downloading:  76%|███████▌  | 333M/440M [00:48<00:15, 6.86MB/s]Downloading:  76%|███████▌  | 334M/440M [00:49<00:15, 6.90MB/s]Downloading:  76%|███████▋  | 336M/440M [00:49<00:15, 6.93MB/s]Downloading:  77%|███████▋  | 338M/440M [00:49<00:14, 7.09MB/s]Downloading:  77%|███████▋  | 339M/440M [00:49<00:14, 6.93MB/s]Downloading:  77%|███████▋  | 341M/440M [00:50<00:14, 6.94MB/s]Downloading:  78%|███████▊  | 342M/440M [00:50<00:14, 6.95MB/s]Downloading:  78%|███████▊  | 344M/440M [00:50<00:13, 6.97MB/s]Downloading:  78%|███████▊  | 345M/440M [00:50<00:13, 6.94MB/s]Downloading:  79%|███████▉  | 347M/440M [00:50<00:13, 7.13MB/s]Downloading:  79%|███████▉  | 349M/440M [00:51<00:10, 8.47MB/s]Downloading:  79%|███████▉  | 349M/440M [00:51<00:13, 6.82MB/s]Downloading:  80%|███████▉  | 350M/440M [00:51<00:15, 5.88MB/s]Downloading:  80%|███████▉  | 352M/440M [00:51<00:14, 6.20MB/s]Downloading:  80%|████████  | 353M/440M [00:51<00:13, 6.39MB/s]Downloading:  81%|████████  | 355M/440M [00:52<00:13, 6.55MB/s]Downloading:  81%|████████  | 356M/440M [00:52<00:12, 6.84MB/s]Downloading:  81%|████████▏ | 358M/440M [00:52<00:10, 8.15MB/s]Downloading:  81%|████████▏ | 359M/440M [00:52<00:12, 6.67MB/s]Downloading:  82%|████████▏ | 360M/440M [00:52<00:13, 5.81MB/s]Downloading:  82%|████████▏ | 361M/440M [00:53<00:12, 6.14MB/s]Downloading:  82%|████████▏ | 363M/440M [00:53<00:12, 6.37MB/s]Downloading:  83%|████████▎ | 364M/440M [00:53<00:11, 6.69MB/s]Downloading:  83%|████████▎ | 366M/440M [00:53<00:09, 7.91MB/s]Downloading:  83%|████████▎ | 367M/440M [00:53<00:11, 6.53MB/s]Downloading:  83%|████████▎ | 367M/440M [00:53<00:12, 6.03MB/s]Downloading:  84%|████████▍ | 369M/440M [00:54<00:11, 6.29MB/s]Downloading:  84%|████████▍ | 371M/440M [00:54<00:10, 6.47MB/s]Downloading:  84%|████████▍ | 372M/440M [00:54<00:10, 6.61MB/s]Downloading:  85%|████████▍ | 374M/440M [00:54<00:09, 6.88MB/s]Downloading:  85%|████████▌ | 375M/440M [00:54<00:08, 8.07MB/s]Downloading:  85%|████████▌ | 376M/440M [00:55<00:09, 6.57MB/s]Downloading:  86%|████████▌ | 377M/440M [00:55<00:10, 6.14MB/s]Downloading:  86%|████████▌ | 378M/440M [00:55<00:09, 6.36MB/s]Downloading:  86%|████████▋ | 380M/440M [00:55<00:09, 6.53MB/s]Downloading:  87%|████████▋ | 382M/440M [00:55<00:08, 6.65MB/s]Downloading:  87%|████████▋ | 383M/440M [00:56<00:08, 6.90MB/s]Downloading:  87%|████████▋ | 384M/440M [00:56<00:06, 8.06MB/s]Downloading:  87%|████████▋ | 385M/440M [00:56<00:08, 6.54MB/s]Downloading:  88%|████████▊ | 386M/440M [00:56<00:08, 6.22MB/s]Downloading:  88%|████████▊ | 388M/440M [00:56<00:08, 6.42MB/s]Downloading:  88%|████████▊ | 389M/440M [00:57<00:07, 6.58MB/s]Downloading:  89%|████████▉ | 391M/440M [00:57<00:07, 6.69MB/s]Downloading:  89%|████████▉ | 393M/440M [00:57<00:06, 6.93MB/s]Downloading:  89%|████████▉ | 394M/440M [00:57<00:05, 8.06MB/s]Downloading:  90%|████████▉ | 395M/440M [00:57<00:07, 6.52MB/s]Downloading:  90%|████████▉ | 396M/440M [00:57<00:07, 6.25MB/s]Downloading:  90%|█████████ | 397M/440M [00:58<00:06, 6.41MB/s]Downloading:  91%|█████████ | 399M/440M [00:58<00:06, 6.58MB/s]Downloading:  91%|█████████ | 400M/440M [00:58<00:05, 6.70MB/s]Downloading:  91%|█████████▏| 402M/440M [00:58<00:05, 6.96MB/s]Downloading:  92%|█████████▏| 403M/440M [00:58<00:04, 8.02MB/s]Downloading:  92%|█████████▏| 404M/440M [00:59<00:05, 6.48MB/s]Downloading:  92%|█████████▏| 405M/440M [00:59<00:05, 6.28MB/s]Downloading:  92%|█████████▏| 407M/440M [00:59<00:05, 6.48MB/s]Downloading:  93%|█████████▎| 408M/440M [00:59<00:04, 6.62MB/s]Downloading:  93%|█████████▎| 410M/440M [00:59<00:04, 6.91MB/s]Downloading:  93%|█████████▎| 411M/440M [01:00<00:03, 7.91MB/s]Downloading:  94%|█████████▎| 412M/440M [01:00<00:04, 6.39MB/s]Downloading:  94%|█████████▍| 413M/440M [01:00<00:04, 6.42MB/s]Downloading:  94%|█████████▍| 415M/440M [01:00<00:03, 7.78MB/s]Downloading:  94%|█████████▍| 415M/440M [01:00<00:03, 6.56MB/s]Downloading:  95%|█████████▍| 416M/440M [01:00<00:04, 5.78MB/s]Downloading:  95%|█████████▍| 418M/440M [01:01<00:03, 6.09MB/s]Downloading:  95%|█████████▌| 419M/440M [01:01<00:03, 6.42MB/s]Downloading:  96%|█████████▌| 421M/440M [01:01<00:02, 7.67MB/s]Downloading:  96%|█████████▌| 422M/440M [01:01<00:02, 6.45MB/s]Downloading:  96%|█████████▌| 422M/440M [01:01<00:03, 6.01MB/s]Downloading:  96%|█████████▌| 424M/440M [01:01<00:02, 7.32MB/s]Downloading:  96%|█████████▋| 425M/440M [01:02<00:02, 6.31MB/s]Downloading:  97%|█████████▋| 426M/440M [01:02<00:02, 5.62MB/s]Downloading:  97%|█████████▋| 427M/440M [01:02<00:02, 6.02MB/s]Downloading:  97%|█████████▋| 429M/440M [01:02<00:01, 6.36MB/s]Downloading:  98%|█████████▊| 430M/440M [01:02<00:01, 7.62MB/s]Downloading:  98%|█████████▊| 431M/440M [01:02<00:01, 6.42MB/s]Downloading:  98%|█████████▊| 432M/440M [01:03<00:01, 5.99MB/s]Downloading:  98%|█████████▊| 433M/440M [01:03<00:00, 7.25MB/s]Downloading:  99%|█████████▊| 434M/440M [01:03<00:01, 6.25MB/s]Downloading:  99%|█████████▉| 435M/440M [01:03<00:00, 5.76MB/s]Downloading:  99%|█████████▉| 437M/440M [01:03<00:00, 6.08MB/s]Downloading:  99%|█████████▉| 438M/440M [01:04<00:00, 6.41MB/s]Downloading: 100%|█████████▉| 439M/440M [01:04<00:00, 7.44MB/s]Downloading: 100%|█████████▉| 440M/440M [01:04<00:00, 6.26MB/s]Downloading: 100%|██████████| 440M/440M [01:04<00:00, 6.85MB/s]
+
+======== Epoch 1 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:26.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:58.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:33.
+  Batch 8,000  of  17,193.    Elapsed: 0:54:24.
+  Batch 10,000  of  17,193.    Elapsed: 1:08:02.
+  Batch 12,000  of  17,193.    Elapsed: 1:21:30.
+  Batch 14,000  of  17,193.    Elapsed: 1:34:58.
+  Batch 16,000  of  17,193.    Elapsed: 1:48:27.
+
+  Average training loss: 0.40
+  Training epoch took: 1:56:29
+
+Running Validation...
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 2258.4993686676025
+Time taken for validation evaluation 40.875
+
+
+=========================
+Time elapsed: 9290.733987569809
+Epoch: 1/10
+Epoch time: 9290.734005689621
+Train Acc: 0.9090324128604459
+Validation Acc: 0.8848
+Train Loss: tensor(0.2576, device='cuda:0')
+Validation Loss: tensor(0.3131, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:21
+
+======== Epoch 2 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:29.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:59.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:28.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:54.
+  Batch 10,000  of  17,193.    Elapsed: 1:14:12.
+  Batch 12,000  of  17,193.    Elapsed: 1:34:41.
+  Batch 14,000  of  17,193.    Elapsed: 1:55:07.
+  Batch 16,000  of  17,193.    Elapsed: 2:15:20.
+
+  Average training loss: 0.28
+  Training epoch took: 2:27:31
+
+Running Validation...
+Starting Evaluation for epoch: 2
+Time taken for train evaluation 2843.3242502212524
+Time taken for validation evaluation 51.93745279312134
+
+
+=========================
+Time elapsed: 21038.23201918602
+Epoch: 2/10
+Epoch time: 11747.424110651016
+Train Acc: 0.9380171298113976
+Validation Acc: 0.8917
+Train Loss: tensor(0.1854, device='cuda:0')
+Validation Loss: tensor(0.3143, device='cuda:0')
+=========================
+
+
+  Validation took: 0:48:16
+
+======== Epoch 3 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:20:28.
+  Batch 4,000  of  17,193.    Elapsed: 0:40:55.
+  Batch 6,000  of  17,193.    Elapsed: 1:01:22.
+  Batch 8,000  of  17,193.    Elapsed: 1:21:50.
+  Batch 10,000  of  17,193.    Elapsed: 1:42:17.
+  Batch 12,000  of  17,193.    Elapsed: 2:00:32.
+  Batch 14,000  of  17,193.    Elapsed: 2:13:56.
+  Batch 16,000  of  17,193.    Elapsed: 2:27:21.
+
+  Average training loss: 0.22
+  Training epoch took: 2:35:22
+
+Running Validation...
+Starting Evaluation for epoch: 3
+Time taken for train evaluation 2257.8791229724884
+Time taken for validation evaluation 40.81281232833862
+
+
+=========================
+Time elapsed: 32660.44499731064
+Epoch: 3/10
+Epoch time: 11622.204693317413
+Train Acc: 0.957726228387791
+Validation Acc: 0.8907
+Train Loss: tensor(0.1307, device='cuda:0')
+Validation Loss: tensor(0.3257, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+
+======== Epoch 4 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:25.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:50.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:14.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:39.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:01.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:24.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:44.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:05.
+
+  Average training loss: 0.17
+  Training epoch took: 1:55:06
+
+Running Validation...
+Starting Evaluation for epoch: 4
+Time taken for train evaluation 2257.8516256809235
+Time taken for validation evaluation 40.922821283340454
+
+
+=========================
+Time elapsed: 41866.1802675724
+Epoch: 4/10
+Epoch time: 9205.733905553818
+Train Acc: 0.9691903328534659
+Validation Acc: 0.8927
+Train Loss: tensor(0.0978, device='cuda:0')
+Validation Loss: tensor(0.3788, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+
+======== Epoch 5 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:25.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:50.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:15.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:40.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:05.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:30.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:54.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:20.
+
+  Average training loss: 0.14
+  Training epoch took: 1:55:19
+
+Running Validation...
+Starting Evaluation for epoch: 5
+Time taken for train evaluation 2257.364030122757
+Time taken for validation evaluation 40.82420492172241
+
+
+=========================
+Time elapsed: 51084.279175281525
+Epoch: 5/10
+Epoch time: 9218.09756731987
+Train Acc: 0.977975177769053
+Validation Acc: 0.8898
+Train Loss: tensor(0.0741, device='cuda:0')
+Validation Loss: tensor(0.4058, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:19
+
+======== Epoch 6 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:23.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:45.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:07.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:30.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:52.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:14.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:37.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:59.
+
+  Average training loss: 0.11
+  Training epoch took: 1:54:57
+
+Running Validation...
+Starting Evaluation for epoch: 6
+Time taken for train evaluation 2257.576161146164
+Time taken for validation evaluation 40.849870443344116
+
+
+=========================
+Time elapsed: 60281.095313072205
+Epoch: 6/10
+Epoch time: 9196.814624071121
+Train Acc: 0.9841607410315695
+Validation Acc: 0.8926
+Train Loss: tensor(0.0538, device='cuda:0')
+Validation Loss: tensor(0.4830, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+
+======== Epoch 7 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:45.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:08.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:30.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:52.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:15.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:38.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:57.
+
+  Average training loss: 0.09
+  Training epoch took: 1:54:54
+
+Running Validation...
+Starting Evaluation for epoch: 7
+Time taken for train evaluation 2257.855220079422
+Time taken for validation evaluation 40.86400747299194
+
+
+=========================
+Time elapsed: 69475.61897087097
+Epoch: 7/10
+Epoch time: 9194.522153615952
+Train Acc: 0.9893174977097239
+Validation Acc: 0.8898
+Train Loss: tensor(0.0374, device='cuda:0')
+Validation Loss: tensor(0.5317, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+
+======== Epoch 8 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:43.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:05.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:27.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:49.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:12.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:34.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:56.
+
+  Average training loss: 0.08
+  Training epoch took: 1:54:55
+
+Running Validation...
+Starting Evaluation for epoch: 8
+Time taken for train evaluation 2254.6834540367126
+Time taken for validation evaluation 40.830804109573364
+
+
+=========================
+Time elapsed: 78666.97192573547
+Epoch: 8/10
+Epoch time: 9191.351432085037
+Train Acc: 0.9924093705012433
+Validation Acc: 0.8903
+Train Loss: tensor(0.0269, device='cuda:0')
+Validation Loss: tensor(0.5921, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:17
+
+======== Epoch 9 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:28.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:51.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:15.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:39.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:00.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:24.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:49.

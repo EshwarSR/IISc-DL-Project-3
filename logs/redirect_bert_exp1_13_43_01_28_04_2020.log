@@ -1,0 +1,63 @@
+2020-04-28 13:43:03.069880: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-28 13:43:03.069998: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-28 13:43:03.070011: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Using TensorFlow backend.
+Time for loading and tokenizing data: 214.42695498466492
+Lengths: 125 113
+[101, 1037, 2711, 2006, 1037, 3586, 14523, 2058, 1037, 3714, 2091, 13297, 1012, 102, 1037, 2711, 2003, 2731, 2010, 3586, 2005, 1037, 2971, 1012, 102]
+
+Padding/truncating all sentences to length 128
+Time for pre processing: 38.6996967792511
+[  101  1037  2711  2006  1037  3586 14523  2058  1037  3714  2091 13297
+  1012   102  1037  2711  2003  2731  2010  3586  2005  1037  2971  1012
+   102     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+======== Epoch 1 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:19.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:44.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:14.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:39.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:03.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:27.
+  Batch 14,000  of  17,193.    Elapsed: 1:34:06.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:39.
+
+  Average training loss: 0.38
+  Training epoch took: 1:55:39
+
+Running Validation...
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 2257.567041873932
+Time taken for validation evaluation 40.86095070838928
+
+
+=========================
+Time elapsed: 9238.061097621918
+Epoch: 1/10
+Epoch time: 9238.061114788055
+Train Acc: 0.9129604182116943
+Validation Acc: 0.8904
+Train Loss: tensor(0.2471, device='cuda:0')
+Validation Loss: tensor(0.3040, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:19
+Traceback (most recent call last):
+  File "train_bert_classifier.py", line 327, in <module>
+    os.mkdir(model_dir)
+FileNotFoundError: [Errno 2] No such file or directory: 'models/bert-base-uncased/0'

@@ -268,11 +268,9 @@ for epoch_i in range(0, EPOCHS):
     print("  Average training loss: {0:.2f}".format(avg_train_loss))
     print("  Training epoch took: {:}".format(format_time(time.time() - t0)))
 
-    # ========================================
-    #               Validation
-    # ========================================
-    # After the completion of each training epoch, measure our performance on
-    # our validation set.
+    ##############
+    # Validation #
+    ##############
 
     print("")
     print("Running Validation...")
@@ -286,7 +284,7 @@ for epoch_i in range(0, EPOCHS):
         st = time.time()
         # Train data set evaluation
         train_acc, train_loss, train_y_pred, train_y_truth = evaluate(
-            model, train_data)
+            model, train_dataloader)
         train_accuracies.append(train_acc)
         train_losses.append(train_loss)
         et = time.time()
@@ -295,7 +293,7 @@ for epoch_i in range(0, EPOCHS):
         # Validation data set evaluation
         st = time.time()
         validation_acc, validation_loss, validate_y_pred, validate_y_truth = evaluate(
-            model, validation_data)
+            model, validation_dataloader)
         validation_accuracies.append(validation_acc)
         validation_losses.append(validation_loss)
         et = time.time()
@@ -320,20 +318,21 @@ for epoch_i in range(0, EPOCHS):
 
     print("  Validation took: {:}".format(format_time(time.time() - t0)))
 
+    ####################
+    # Saving the model #
+    ####################
+
+    model_dir = "models/" + MODEL_NAME + "/" + str(epoch_i)
+    if not os.path.exists(model_dir):
+        os.makedirs(model_dir)
+
+    print("Saving model to", model_dir)
+    model.save_pretrained(model_dir)
+    tokenizer.save_pretrained(model_dir)
+
 print("")
 print("Training complete!")
 
-####################
-# Saving the model #
-####################
-
-model_dir = "models/" + MODEL_NAME
-if not os.path.exists(model_dir):
-    os.mkdir(model_dir)
-
-print("Saving model to", model_dir)
-model.save_pretrained(model_dir)
-tokenizer.save_pretrained(model_dir)
 
 ###############################
 # Plotting the Metrics Graphs #

@@ -1,0 +1,369 @@
+2020-04-28 18:44:37.358273: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-28 18:44:37.358394: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-28 18:44:37.358407: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Using TensorFlow backend.
+Time for loading and tokenizing data: 212.95044660568237
+Lengths: 125 113
+[101, 1037, 2711, 2006, 1037, 3586, 14523, 2058, 1037, 3714, 2091, 13297, 1012, 102, 1037, 2711, 2003, 2731, 2010, 3586, 2005, 1037, 2971, 1012, 102]
+
+Padding/truncating all sentences to length 128
+Time for pre processing: 36.446033000946045
+[  101  1037  2711  2006  1037  3586 14523  2058  1037  3714  2091 13297
+  1012   102  1037  2711  2003  2731  2010  3586  2005  1037  2971  1012
+   102     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+======== Epoch 1 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:27.
+  Batch 4,000  of  17,193.    Elapsed: 0:27:02.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:31.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:59.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:27.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:54.
+  Batch 14,000  of  17,193.    Elapsed: 1:34:18.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:43.
+
+  Average training loss: 0.38
+  Training epoch took: 1:55:44
+
+Running Validation...
+Starting Evaluation for epoch: 1
+Time taken for train evaluation 2257.060135126114
+Time taken for validation evaluation 40.78263020515442
+
+
+=========================
+Time elapsed: 9243.491412639618
+Epoch: 1/10
+Epoch time: 9243.491438627243
+Train Acc: 0.9121406447672643
+Validation Acc: 0.8909
+Train Loss: tensor(0.2497, device='cuda:0')
+Validation Loss: tensor(0.3117, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:19
+Saving model to models/bert-base-uncased/0
+
+======== Epoch 2 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:32.
+  Batch 4,000  of  17,193.    Elapsed: 0:27:06.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:37.
+  Batch 8,000  of  17,193.    Elapsed: 0:54:05.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:36.
+  Batch 12,000  of  17,193.    Elapsed: 1:21:05.
+  Batch 14,000  of  17,193.    Elapsed: 1:34:31.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:55.
+
+  Average training loss: 0.27
+  Training epoch took: 1:55:56
+
+Running Validation...
+Starting Evaluation for epoch: 2
+Time taken for train evaluation 2255.2608058452606
+Time taken for validation evaluation 40.854153871536255
+
+
+=========================
+Time elapsed: 18527.622774600983
+Epoch: 2/10
+Epoch time: 9252.794315814972
+Train Acc: 0.9400656545827335
+Validation Acc: 0.8964
+Train Loss: tensor(0.1770, device='cuda:0')
+Validation Loss: tensor(0.3007, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:17
+Saving model to models/bert-base-uncased/1
+
+======== Epoch 3 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:24.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:50.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:16.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:39.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:01.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:30.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:57.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:26.
+
+  Average training loss: 0.21
+  Training epoch took: 1:55:28
+
+Running Validation...
+Starting Evaluation for epoch: 3
+Time taken for train evaluation 2252.4238307476044
+Time taken for validation evaluation 40.85290861129761
+
+
+=========================
+Time elapsed: 27777.88213634491
+Epoch: 3/10
+Epoch time: 9222.613471269608
+Train Acc: 0.9570464162631418
+Validation Acc: 0.8971
+Train Loss: tensor(0.1324, device='cuda:0')
+Validation Loss: tensor(0.3246, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:14
+Saving model to models/bert-base-uncased/2
+
+======== Epoch 4 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:25.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:49.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:20.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:49.
+  Batch 10,000  of  17,193.    Elapsed: 1:07:13.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:36.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:58.
+  Batch 16,000  of  17,193.    Elapsed: 1:47:22.
+
+  Average training loss: 0.17
+  Training epoch took: 1:55:20
+
+Running Validation...
+Starting Evaluation for epoch: 4
+Time taken for train evaluation 2259.7130215168
+Time taken for validation evaluation 40.86588978767395
+
+
+=========================
+Time elapsed: 37015.55394625664
+Epoch: 4/10
+Epoch time: 9222.476734638214
+Train Acc: 0.9702609460658146
+Validation Acc: 0.8955
+Train Loss: tensor(0.0957, device='cuda:0')
+Validation Loss: tensor(0.3544, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:22
+Saving model to models/bert-base-uncased/3
+
+======== Epoch 5 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:44.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:06.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:29.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:52.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:13.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:35.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:57.
+
+  Average training loss: 0.14
+  Training epoch took: 1:54:55
+
+Running Validation...
+Starting Evaluation for epoch: 5
+Time taken for train evaluation 2257.9654834270477
+Time taken for validation evaluation 40.88490319252014
+
+
+=========================
+Time elapsed: 46219.68871164322
+Epoch: 5/10
+Epoch time: 9195.372730016708
+Train Acc: 0.9783150838313776
+Validation Acc: 0.8959
+Train Loss: tensor(0.0726, device='cuda:0')
+Validation Loss: tensor(0.4034, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+Saving model to models/bert-base-uncased/4
+
+======== Epoch 6 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:21.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:43.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:06.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:26.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:47.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:08.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:31.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:52.
+
+  Average training loss: 0.11
+  Training epoch took: 1:54:50
+
+Running Validation...
+Starting Evaluation for epoch: 6
+Time taken for train evaluation 2257.8171484470367
+Time taken for validation evaluation 40.796520471572876
+
+
+=========================
+Time elapsed: 55418.082107543945
+Epoch: 6/10
+Epoch time: 9189.76908659935
+Train Acc: 0.9844133984789658
+Validation Acc: 0.8955
+Train Loss: tensor(0.0538, device='cuda:0')
+Validation Loss: tensor(0.4399, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+Saving model to models/bert-base-uncased/5
+
+======== Epoch 7 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:44.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:05.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:27.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:49.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:12.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:33.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:55.
+
+  Average training loss: 0.09
+  Training epoch took: 1:54:53
+
+Running Validation...
+Starting Evaluation for epoch: 7
+Time taken for train evaluation 2256.6107461452484
+Time taken for validation evaluation 40.84091901779175
+
+
+=========================
+Time elapsed: 64619.89837503433
+Epoch: 7/10
+Epoch time: 9191.870614051819
+Train Acc: 0.988873983917172
+Validation Acc: 0.8906
+Train Loss: tensor(0.0391, device='cuda:0')
+Validation Loss: tensor(0.5126, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:19
+Saving model to models/bert-base-uncased/6
+
+======== Epoch 8 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:21.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:42.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:03.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:24.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:46.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:06.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:27.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:49.
+
+  Average training loss: 0.08
+  Training epoch took: 1:54:47
+
+Running Validation...
+Starting Evaluation for epoch: 8
+Time taken for train evaluation 2257.14922952652
+Time taken for validation evaluation 41.023699045181274
+
+
+=========================
+Time elapsed: 73814.13190984726
+Epoch: 8/10
+Epoch time: 9186.419738531113
+Train Acc: 0.9920349285288429
+Validation Acc: 0.8929
+Train Loss: tensor(0.0299, device='cuda:0')
+Validation Loss: tensor(0.5953, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:20
+Saving model to models/bert-base-uncased/7
+
+======== Epoch 9 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:42.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:03.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:25.
+  Batch 10,000  of  17,193.    Elapsed: 1:06:47.
+  Batch 12,000  of  17,193.    Elapsed: 1:20:11.
+  Batch 14,000  of  17,193.    Elapsed: 1:33:35.
+  Batch 16,000  of  17,193.    Elapsed: 1:46:57.
+
+  Average training loss: 0.06
+  Training epoch took: 1:54:59
+
+Running Validation...
+Starting Evaluation for epoch: 9
+Time taken for train evaluation 2259.6496107578278
+Time taken for validation evaluation 40.87212109565735
+
+
+=========================
+Time elapsed: 83023.93354964256
+Epoch: 9/10
+Epoch time: 9201.150517702103
+Train Acc: 0.9944506245546685
+Validation Acc: 0.8948
+Train Loss: tensor(0.0211, device='cuda:0')
+Validation Loss: tensor(0.6366, device='cuda:0')
+=========================
+
+
+  Validation took: 0:38:22
+Saving model to models/bert-base-uncased/8
+
+======== Epoch 10 / 10 ========
+Training...
+  Batch 2,000  of  17,193.    Elapsed: 0:13:22.
+  Batch 4,000  of  17,193.    Elapsed: 0:26:44.
+  Batch 6,000  of  17,193.    Elapsed: 0:40:07.
+  Batch 8,000  of  17,193.    Elapsed: 0:53:30.
+  Batch 10,000  of  17,193.    Elapsed: 1:10:23.
+  Batch 12,000  of  17,193.    Elapsed: 1:23:29.
+  Batch 14,000  of  17,193.    Elapsed: 1:36:31.
+  Batch 16,000  of  17,193.    Elapsed: 1:49:33.
+
+  Average training loss: 0.05
+  Training epoch took: 1:57:19
+
+Running Validation...
+Starting Evaluation for epoch: 10
+Time taken for train evaluation 2215.114316701889
+Time taken for validation evaluation 40.106616735458374
+
+
+=========================
+Time elapsed: 92329.01929831505
+Epoch: 10/10
+Epoch time: 9297.067225933075
+Train Acc: 0.9953576466140267
+Validation Acc: 0.8938
+Train Loss: tensor(0.0180, device='cuda:0')
+Validation Loss: tensor(0.6766, device='cuda:0')
+=========================
+
+
+  Validation took: 0:37:39
+Saving model to models/bert-base-uncased/9
+
+Training complete!
+Done
