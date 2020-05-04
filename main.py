@@ -50,7 +50,7 @@ def evaluate_bert(model, data):
     all_y_pred = []
     loss_meter = AverageMeter("loss")
     for batch in data:
-        batch = tuple(t.to(device) for t in batch)
+        batch = tuple(t for t in batch)
         b_input_ids, b_input_mask, b_token_type_ids, b_labels = batch
 
         loss, logits = model(b_input_ids,
@@ -154,6 +154,7 @@ def get_attention_masks(X):
 batch_size = 128
 
 device = torch.device('cpu')
+# device = torch.device('cuda:0')
 print("Running on the device", device)
 
 CLASSES = {"entailment": 0, "contradiction": 1, "neutral": 2}
@@ -190,7 +191,12 @@ lr_model = pickle.load(open(model_folder+"lr_model.pkl", "rb"))
 #------ BERT ------#
 # Model
 output_dir = "./bert_model/"
-bert_model = BertForSequenceClassification.from_pretrained(output_dir)
+bert_model = BertForSequenceClassification.from_pretrained(output_dir,
+                                                           num_labels=3,
+                                                           output_attentions=False,
+                                                           output_hidden_states=False)
+bert_model.to(device)
+bert_model.eval()
 tokenizer = BertTokenizer.from_pretrained(output_dir)
 
 # Data
@@ -231,6 +237,8 @@ with open("deep_model.txt", "w") as f:
     pred_labels = [class_labels[idx] for idx in all_y_pred]
     f.write("\n".join(pred_labels))
 """
+
+
 # TF-IDF Model
 acc, y_pred = evaluate(X_test, y_test, count_model, tfidf_model, lr_model)
 print("TF-IDF LR Model Accuracy:", round(acc, 3))
@@ -239,9 +247,10 @@ with open("tfidf.txt", "w") as f:
     f.write("\n".join(pred_labels))
 
 # BERT Model
-test_acc, test_loss, test_y_pred, test_y_truth = evaluate_bert(
-    bert_model, test_dataloader)
-print("BERT Model Accuracy:", round(acc, 3))
+with torch.no_grad():
+    test_acc, test_loss, test_y_pred, test_y_truth = evaluate_bert(
+        bert_model, test_dataloader)
+print("BERT Model Accuracy:", round(test_acc, 3))
 with open("deep_model.txt", "w") as f:
     pred_labels = [INV_CLASSES[item] for item in test_y_pred]
     f.write("\n".join(pred_labels))
