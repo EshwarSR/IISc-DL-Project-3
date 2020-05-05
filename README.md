@@ -19,11 +19,15 @@ Dataset used in this project is SNLI.
 
 - `train_rnn.py` trains, validates and saves the CNN models. It also generates the required plots. Used for running multiple experiments.
 
-- `main.py` can be used to run inferences on new data. It loads the best models and writes 2 files `tfidf.txt` (output from best logistic regression model) and `deep_model.txt` (output from the best RNN model).
+- `train_bert_classifier.py` finetunes the BERT model and trains a classifier on top of it. And generates the required plots.
+
+- `main.py` can be used to run inferences on new data. It loads the best models and writes 2 files `tfidf.txt` (output from best logistic regression model) and `deep_model.txt` (output from the BERT model).
 
 - `requirements.txt` contains the list of python packages used.
 
 - `models` folder contains all the trained models.
+
+- `bert_model` folder contains the finetuned BERT classifier.
 
 - `plots` folder contains plots of all experiments.
 

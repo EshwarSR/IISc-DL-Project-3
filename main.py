@@ -49,7 +49,10 @@ def evaluate_bert(model, data):
     all_y_truth = []
     all_y_pred = []
     loss_meter = AverageMeter("loss")
+    i = 0
+    print("Number of batches:", len(data))
     for batch in data:
+        st = time.time()
         batch = tuple(t for t in batch)
         b_input_ids, b_input_mask, b_token_type_ids, b_labels = batch
 
@@ -61,6 +64,8 @@ def evaluate_bert(model, data):
         all_y_pred.extend(pred_classes.tolist())
         all_y_truth.extend(b_labels.tolist())
         loss_meter.update(loss, b_labels.shape[0])
+        print("Time for batch:", i, time.time()-st)
+        i += 1
     acc = accuracy_score(all_y_truth, all_y_pred)
     return acc, loss_meter.avg, all_y_pred, all_y_truth
 
